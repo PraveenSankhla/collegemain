@@ -1,0 +1,44 @@
+.aboutus-submenu
+{
+  
+  position: absolute;
+  list-style: none;
+  text-align: start;
+  top: 45px;
+  padding-left: 5px;
+  margin-top: 15px;
+ 
+
+}
+
+.aboutus-submenu li{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    padding: 12px;
+    
+}
+.aboutus-submenu.clicked
+{
+    display: none;
+
+  
+}
+.aboutus-submenu a 
+{
+    color: white;
+    /* display: block; */
+    text-decoration: none;
+    padding: 12px;
+}
+.submenu-item
+{
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+}
+/* .aboutus-submenu a:hover
+{
+    background-color: white;
+    color: black;
+} */

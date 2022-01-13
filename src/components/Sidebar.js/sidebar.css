@@ -1,0 +1,273 @@
+.respo {
+  display: flex;
+}
+
+.rightside {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0.8rem;
+  flex-shrink: 2;
+  background-color: white;
+}
+
+.searchdiv {
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-right: 0.5rem;
+  width: 90%;
+  height: 250px;
+  border: 1px solid grey;
+}
+
+.searchdiv h3 {
+  background-color: #ff6900;
+  font-size: 15px;
+  color: white;
+  padding: 10px 20px;
+}
+
+.searchdiv hr {
+  margin: 4px;
+  background-color: grey;
+}
+
+.searchdiv input {
+  margin-top: 1.1rem;
+  margin-left: 0.8rem;
+  padding: 0.4rem;
+  font-size: 16px;
+  border-radius: 0.25rem;
+  border-style: solid;
+}
+
+.searchdiv input:focus {
+  color: #ff6900;
+}
+.animation-limit {
+  overflow: hidden;
+  width: 100%;
+  height: 80%;
+}
+.notice-section {
+  height: 90%;
+
+  animation: upward linear 30s infinite;
+  overflow: hidden;
+}
+.notice-section:hover {
+  animation-play-state: paused;
+}
+
+@keyframes upward {
+  0% {
+    transform: translateY(100%);
+  }
+  10% {
+    transform: translateY(80%);
+  }
+  20% {
+    transform: translateY(60%);
+  }
+  30% {
+    transform: translateY(40%);
+  }
+  40% {
+    transform: translateY(20%);
+  }
+  50% {
+    transform: translateY(-10%);
+  }
+  60% {
+    transform: translateY(-30%);
+  }
+  70% {
+    transform: translateY(-50%);
+  }
+  80% {
+    transform: translateY(-70%);
+  }
+  90% {
+    transform: translateY(-90%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.searchdiv button {
+  position: relative;
+  border-radius: 0.25rem;
+  font-size: 16px;
+  padding: 0.5rem;
+  cursor: pointer;
+  margin-top: 1.1rem;
+  padding-bottom: 0.4rem;
+  margin-left: -0.5rem;
+  background-color: #ff6900;
+  color: white;
+  border-style: none;
+  box-shadow: 0.5px 1px 1px gray;
+}
+
+.searchdiv button:hover {
+  border-radius: 0.28rem;
+  font-size: 16.5px;
+  padding: 0.5rem;
+  cursor: pointer;
+  margin-top: 0.9rem;
+  background-color: #ff6400;
+  box-shadow: 1px 0.5px 0.5px 1px lightgray;
+}
+
+#news {
+  padding: 1rem;
+  margin-top: 4rem;
+  margin-right: 0.5rem;
+  width: 90%;
+  height: 320px;
+  border: 1px solid grey;
+}
+
+#news h3 {
+  background-color: #ff6900;
+  font-size: 16px;
+  color: white;
+  padding: 10px 20px;
+}
+
+#news hr {
+  margin: 4px;
+  background-color: grey;
+}
+
+#news a {
+  color: #ff6900;
+}
+
+#news p {
+  margin: 0.8rem;
+}
+
+@media screen and (max-width: 1100px) and (min-width: 800px) {
+  .respo {
+    display: block;
+  }
+
+  .rightside {
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+  }
+
+  .searchdiv {
+    width: 96%;
+  }
+
+  .searchdiv h3 {
+    padding: 0.6rem 1.5rem;
+  }
+
+  .searchdiv hr {
+    margin: 4px;
+    background-color: grey;
+  }
+
+  .searchdiv input {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    font-size: 16px;
+  }
+
+  .searchdiv button {
+    font-size: 16px;
+    padding: 0.6rem;
+    margin-top: 1rem;
+    background-color: #ff6900;
+    color: white;
+    border-style: none;
+  }
+
+  #news {
+    margin-top: 2rem;
+    width: 96%;
+    height: 250px;
+  }
+
+  #news a {
+    color: #ff6900;
+    margin-left: 1.8rem;
+  }
+
+  #news p {
+    margin: 0.8rem;
+    margin-left: 2.2rem;
+  }
+}
+
+
+@media screen and (max-width : 1100px){
+  .searchdiv input {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 799px) and (min-width: 600px) {
+  .respo {
+    display: block;
+  }
+
+  .rightside {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .searchdiv {
+    margin-top: 0.5rem;
+  }
+  
+  #news {
+    margin-top: 1.5rem;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .respo {
+    display: block;
+  }
+
+  .rightside {
+    justify-content: center;
+    align-items: center;
+    padding: 0.1rem;
+  }
+
+  .searchdiv {
+    margin-top: 0.5rem;
+  }
+
+  .searchdiv h3 {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+
+  .searchdiv input {
+    margin-left: 0.5rem;
+    padding: 0.4rem;
+    font-size: 12px;
+  }
+
+  .searchdiv button {
+    border-radius: 1px;
+    font-size: 12px;
+  }
+
+  #news {
+    margin-top: 1rem;
+  }
+
+  #news h3 {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,137 @@
+.navbar {
+  height: 50px;
+  min-height: 50px;
+  background: #1b1919;
+  display: flex;
+  border-top: 3px solid #f27300;
+  width: 100%;
+  justify-content: center;
+}
+.nav-items {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 12px;
+
+  /* margin-left: 10px;
+    margin-right: 120px; */
+}
+.icon {
+  margin-left: 5px;
+  position: absolute;
+  top: 35px;
+}
+.nav-item {
+  min-width: fit-content;
+}
+.nav-items a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  text-align: center;
+  margin-top: 1rem;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  /* padding: 0.5rem 1.5rem; */
+}
+ .nav-items a:hover {
+  background-color: white;
+  color: black;
+}
+
+@media screen and (min-width: 920px) and (max-width: 1350px) {
+  .nav-items {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    font-size: 15px;
+    flex-wrap: wrap;
+    margin-right: 140px;
+    padding: 0px 10px;
+
+    /* margin-top: 12px;
+    margin-left: 10px;
+    margin-right: 120px;
+     */
+  }
+  .icon {
+    margin-left: 5px;
+    /* position: absolute;
+    top: 16px; */
+  }
+  .navbar {
+    height: 100px !important;
+    background: #1b1919;
+    display: grid;
+    border-top: 3px solid #f27300;
+    width: 100%;
+
+    /* margin-left: 90px; */
+  }
+}
+
+@media screen and (max-width: 919px) {
+  .navbar {
+    height: auto;
+    background: #1b1919;
+    display: flex;
+    border-top: 3px solid #f27300;
+    width: 100%;
+    justify-content: center;
+    margin-left: 0;
+  }
+  .nav-items {
+    display: none;
+  }
+  .nav-link-mobileView {
+    padding: 20px 0px;
+    margin-top: 60px;
+    overflow-x: hidden;
+    width: 100%;
+    background-color: black;
+    color: white;
+  }
+  .nav-link-mobileView a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 2rem;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-link-mobileView a:hover {
+    background-color: white;
+    padding: 4px 3px;
+    width: 20%;
+    color: black;
+  }
+  .mobile-menu-icon {
+    position: fixed;
+    right: 0;
+    height: 30px;
+    width: 50px;
+  }
+  .icon {
+    display: none;
+  }
+
+  .nav-link-mobileView a:hover {
+    background-color: white;
+    padding: 4px 3px;
+    width: 20%;
+    color: black;
+  }
+  .mobile-menu-icon {
+    position: relative;
+    float: right;
+    background: none;
+    color: red;
+  }
+  .after-icon {
+    width: 50%;
+  }
+}

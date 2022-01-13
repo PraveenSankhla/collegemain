@@ -1,0 +1,112 @@
+/* * div {
+  width: 100%;
+} */
+
+.contact-main {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+}
+
+.contact {
+  font-family: "Calibri Light";
+  font-size: 15px;
+  font-weight: 400;
+  color: #202020;
+  line-height: 1.8;
+  word-wrap: break-word;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 100%;
+}
+
+.name-head{
+  padding: 0px;
+  margin: 0px;
+}
+
+.col-md {
+  position: relative;
+  margin-left: 1rem;
+}
+
+article {
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.contact-title {
+  word-wrap: break-word;
+  font-weight: 700;
+  color: #000;
+  letter-spacing: -0.02em;
+  font-size: 36px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+.google-map {
+  position: relative;
+  margin: 1rem 0rem;
+  width: 90%;
+  height: 400px;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+  display: table;
+  text-indent: initial;
+  border-color: grey;
+  overflow: auto;
+}
+
+tbody {
+  overflow: auto;
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+}
+
+td {
+  padding: 8px;
+}
+
+td {
+  display: table-cell;
+  vertical-align: inherit;
+}
+
+.name-head {
+  color: #ff6900;
+}
+
+.block-table {
+  margin: 0 0 1em;
+  overflow-x: auto;
+}
+
+figure {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+.block-table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+@media screen and (min-width:750px){
+}
+
+

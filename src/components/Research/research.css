@@ -1,0 +1,22 @@
+/* .research-main{
+    background-color: white;
+    /* display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    flex-direction: row; 
+} */
+
+ table{
+     font-family: "Times New Roman";
+     border-collapse:collapse;
+     border:1px solid black;
+     width : 100% ;
+}
+td, th{
+     border: 1px solid #080808;
+     text-align:left;
+     padding: 8px;
+}
+tr:nth-child(even) {
+    background: 1px solid #f3e8e8;
+}

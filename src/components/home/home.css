@@ -1,0 +1,291 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* body{
+    margin: 10px 10%;
+    background-color: lightgrey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
+
+/* ---------left side---------- */
+.home-blog {  
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.leftside {
+  padding: 0.5rem 0.5rem;
+  margin-left: 1rem;
+}
+
+.leftside h1 {
+  font-size: 36px;
+  font-family: Calibri Light;
+}
+
+.leftside p {
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  word-wrap: break-word;
+  color: #ff6900;
+}
+
+/* ------------- image slider----------- */
+.slidemain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.slidebar {
+  margin: 1rem 0rem;
+  background-image: url("./img1.jpg");
+  width: 94%;
+  height: 310px;
+  background-position: center;
+  background-repeat: repeat-x;
+  animation: slider 10s infinite step-start;
+  box-shadow: 1px 1px 10px 0.5px #505757;
+}
+
+@keyframes slider {
+  0% {
+    background-image: url("./img\ \(1\).jpg");
+  }
+  25% {
+    background-image: url("./img\ \(2\).jpg");
+  }
+  50% {
+    background-image: url("./img\ \(3\).jpg");
+  }
+  75% {
+    background-image: url("./img\ \(4\).jpg");
+  }
+}
+
+.slides{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.slides button {
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+  background-color: unset;
+  border-style: none;
+}
+
+.left-btn{
+  align-content: flex-start;
+  align-self: center;
+  margin-top:8rem ;
+  margin-left: 1rem;
+}
+
+.right-btn{
+  align-content: flex-end;
+  align-self: center;
+  margin-top: 8rem;
+  margin-right: 1rem;
+}
+
+/* -------image slider end --------*/
+.middle-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.middle-div p {
+  font-size: 17.5px;
+  text-align: justify;
+  color: #202020;
+  margin: 0.2rem;
+  margin-left: 1rem;
+}
+
+.middle-div a {
+  margin-left: 2rem;
+  color: #ff6900;
+  font-size: 18px;
+}
+
+.middle-div hr {
+  margin: 0.8rem;
+  background-color: #ff6900;
+}
+
+.middle-div img {
+  max-width: 98%;
+  height: auto;
+}
+
+.mainbtn a {
+  display: flex;
+  justify-content: center;
+}
+
+.middle-div button {
+  overflow: auto;
+  margin: 1rem 2rem;
+  padding: 1rem 2rem;
+  background-color: #ff6900;
+  color: white;
+  width: 96%;
+  border-radius: 25px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-style: none;
+}
+
+.middle-div button:hover{
+  background-color: #ff4200;
+  color: antiquewhite;
+}
+
+.middle-div img {
+  overflow: hidden;
+}
+
+.img2 {
+  padding-left: 4rem;
+}
+
+.bot {
+  margin: 0.5rem 0.1rem;
+  padding-left: 4rem;
+}
+
+/* ============================================================================== */
+/* --------------------media query------------------- */
+
+@media only screen and (max-width: 900px) and (min-width: 500px) {
+  .leftside {
+    padding: 0.5rem 0.5rem;
+    margin-left: 1rem;
+  }
+
+  .leftside h1 {
+    font-size: 30px;
+  }
+
+  .leftside p {
+    font-size: 15px;
+  }
+
+  .slidebar {
+    height: 270px;
+  }
+
+  .slides button {
+    font-size: 30px;
+  }
+
+  .middle-div p {
+    font-size: 17px;
+  }
+
+  .middle-div a {
+    margin-left: 1rem;
+    font-size: 17px;
+  }
+
+  .middle-div hr {
+    margin: 0.4rem;
+  }
+
+  .middle-div img {
+    max-width: 98%;
+    height: auto;
+  }
+
+  .middle-div button {
+    margin: 0.5rem 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+  }
+
+  .img2 {
+    padding-left: 2rem;
+  }
+
+  .bot {
+    margin: 0.5rem 0.1rem;
+    padding-left: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .leftside {
+    padding: 0.4rem 0.2rem;
+    margin-left: 0.5rem;
+  }
+
+  .leftside h1 {
+    font-size: 25px;
+  }
+
+  .leftside p {
+    font-size: 13px;
+  }
+
+  .slidebar {
+    height: 210px;
+  }
+
+  .slides button {
+    font-size: 25px;
+  }
+
+  .left-btn{
+    margin-top:5.5rem ;
+    margin-left: 0.5rem;
+  }
+  
+  .right-btn{
+    margin-top: 5rem;
+    margin-right: 0.5rem;
+  }
+
+  .middle-div a {
+    font-size: 15px;
+  }
+
+  .middle-div hr {
+    margin: 0.2rem;
+  }
+
+  .middle-div img {
+    max-width: 98%;
+    height: auto;
+  }
+
+  .middle-div button {
+    margin: 0.5rem 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 10px;
+  }
+
+  .img2 {
+    padding-left: 1rem;
+  }
+
+  .bot {
+    margin: 0.10rem 0.1rem;
+    padding-left: 0.50rem;
+  }
+}
