@@ -52,22 +52,20 @@ const Volumedrop = ({ year }, props) => {
                 <FaAngleDown />
               </i>
 
-
-              {data.length > 0 && (
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection : "column",
-                    position: "relative",
-                    marginLeft: "10px",
-                    right: 0,
-                    top: 0,
-                    width: "100%",
-                    backgroundColor: "black",
-                    height: "fit-content",
-                  }}
-                >
-                  {data.map((ite, i) => {
+              <div
+                style={{
+                  position: "absolute",
+                  left: "100%",
+                  width: "fit-content",
+                  height: "fit-content",
+                  display: "flex",
+                  paddingRight: 20,
+                  flexDirection: "column",
+                  backgroundColor: "black",
+                }}
+              >
+                {data.length > 0 &&
+                  data.map((ite, i) => {
                     console.log("ite", ite.ur);
                     return (
                       <Link to={`/view/file/${year}/${i}`}>
@@ -75,8 +73,7 @@ const Volumedrop = ({ year }, props) => {
                       </Link>
                     );
                   })}
-                </div>
-              )}
+              </div>
             </div>
           );
         })}

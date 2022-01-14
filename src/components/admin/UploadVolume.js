@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './uploadvolume.css'
+import "./uploadvolume.css";
 import { v4 as uuidv4 } from "uuid";
 import {
   arrayUnion,
@@ -48,12 +48,16 @@ const UploadVolume = () => {
   };
   return (
     <div className="main-volume">
-      <input className="inp"
+      <input
+        className="inp"
         type="file"
+        accept="application/pdf"
         onChange={onHandleChange}
         placeholder="Select Input File"
       />
-      <button className="volume-btn" onClick={(e) => addFile(e)}>Submit</button>
+      <button className="volume-btn" onClick={(e) => addFile(e)}>
+        Submit
+      </button>
     </div>
   );
 };
