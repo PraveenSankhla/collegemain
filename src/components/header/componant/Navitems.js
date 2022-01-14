@@ -139,10 +139,10 @@ export const editorDropdown = [
     path: "./Editor/associate-editors-message",
     cName: "submenu-item",
   },
-  // {
-  //   id: 6,
-  //   title: "Development",
-  //   path: "./development",
-  //   cName: "submenu-item",
-  // },
+  {
+    id: 6,
+    title: "Finance Secretary",
+    path: "./development",
+    cName: "submenu-item",
+  },
 ];
