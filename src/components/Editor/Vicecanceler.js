@@ -7,20 +7,20 @@ const Vicecanceler = () => {
     <div className='vicechancler'>
       <div class="vicechancler-blog">
         <div class="vicechancler-blog-post">
-          <h1>Chairman Ethical Committee Message</h1>
+          <h1>Secretary Message</h1>
           <div className="vicechancler-flex-set">
           <div class="vicechancler-blog-post-img">
-            <img src="/img/e.jpg" alt="" />
+            <img src="/img/3.png" alt="" />
           </div>
             <div class="vicechancler-blog-post-title">
-                  <h1>Prof (Dr) Sarvottam Dixit</h1>
+                  <h1>Mr. N. L. Khetan</h1>
                 <span>
-                  C.A, Ph.D.<br />
-                  Chairperson, Mewar University<br />
+                  
+                  Secretary, Aravali Group of College<br />
                   Phone: 9891****93<br />
-                  Email:akg@mewruniversity.com<br />
+                  Email:abc@aravalicollege.org<br />
                   Profile :
-                  <a href="https://www.mimcs.com/chairman%27s_profile.php">https://www.mimcs.com/chairman%27s_profile.php</a>
+                  <a href="">https://abc.com</a>
                 </span>
                 </div>
                 </div>
@@ -29,7 +29,7 @@ const Vicecanceler = () => {
 
           <div class="vicechancler-message">
             <p>
-              Welcome to the online edition of Indian Journal Research (IJR).
+              Welcome to the online edition of Aravali Journal of Technical Research (AJTR).
               This year marks a milestone in the history of the journal because
               it comes with some important enhancements. The enhancement is that
               the journal is reshaped according to the internal standard and UGC

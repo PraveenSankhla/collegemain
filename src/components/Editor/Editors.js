@@ -10,96 +10,73 @@ const Editors = () => {
 
                 <div className="flex-set">
                 <div class="blog-post-img">
-                <img src="/img/b.jpg" alt="" />
+                <img src="/img/1.png" alt="" />
                 </div>
                 <div class="blog-post-title">
-                <h1>Dr Ash</h1>
+                <h1>Mr. Om Prakash Agrawal</h1>
                 <span>
-                C.A, Ph.D.<br />
-                Chairperson, Mewar University<br />
+                Patron, Aravali Group Of College<br />
                 Phone: 9891****93<br />
-                Email:akg@mewruniversity.com<br />
+                Email:abc@aravalicollege.org<br />
                 Profile :
-                <a href="https://www.mimcs.com/chairman%27s_profile.php">https://www.mimcs.com/chairman%27s_profile.php</a>
+                <a href="">https://abc.com</a>
                 </span>
                 </div>
                 </div>
 
             <div className="flex-set">            
             <div class="blog-post-img">
-            <img src="/img/e.jpg" alt="" />
+            <img src="/img/3.png" alt="" />
             </div>
             <div class="blog-post-title">
-            <h1>Prof (Dr) Sarvottam Dixit</h1>
+            <h1>Mr. N. L. Khetan</h1>
             <span>
-            M. Sc., M. Tech. Ph.D.<br />
-            Pro Vice Chancellor, Mewar University<br />
-            Phone: 9870966636<br />
-            Email: sdixit_dr@rediffmail.com<br />
+            Secretary, Aravali Group of Colleges<br />
+            Phone: 98******36<br />
+            Email: abc@aravalicollege.org<br />
             Profile :
-            <a href="https://www.mimcs.com/chairman%27s_profile.php">https://www.mimcs.com/chairman%27s_profile.php</a>
+            <a href="">https://abc.com</a>
             </span>
             </div>
             </div>
 
             <div className="flex-set">
             <div class="blog-post-img">
-            <img src="/img/b.jpg" alt="" />
+            <img src="/img/2.jpg" alt="" />
             </div>
             <div class="blog-post-title">
-            <h1>Shri Ram Bahadur Rai</h1>
+            <h1>Mr. Amit Agrawal</h1>
             <span>
-            PG in Commerce, PD Dip in Mass Com.,<br />
-            President IGNCA<br />
+            
+            Finance Secretary, Aravali Group of Colleges<br />
             Phone: 9870966636<br />
-            Email: sdixit_dr@rediffmail.com<br />
+            Email: abc@aravalicollege.org<br />
             Profile :
-            <a href="https://www.mimcs.com/chairman%27s_profile.php">https://www.mimcs.com/chairman%27s_profile.php</a>
-            </span>
-            </div>
-            </div>
-
-            <div className="flex-set">
-            <div class="blog-post-img">
-            <img src="/img/c.jpeg" alt="" />
-            </div>
-            <div class="blog-post-title">
-            <h1>Dr Mahesh Chandra Sharma</h1>
-            <span>
-            C.A, Ph.D.
-            <br />
-            Chairperson, Mewar University
-            <br />
-            Phone: 9891****93
-            <br />
-            Email:akg@mewruniversity.com
-            <br />
-            Profile :
-            <a href="https://www.mimcs.com/chairman%27s_profile.php">https://www.mimcs.com/chairman%27s_profile.php</a>
+            <a href="">https://abc.com</a>
             </span>
             </div>
             </div>
         </div>
         
-        <h1>Honorary Editor-in-Chief</h1>
+        <h1>Honorary Director</h1>
         <div class="main-div">
         <div className="flex-set">
             <div class="blog-post-img">
-            <img src="/img/d.jpeg" alt="" />
+            <img src="/img/5.png" alt="" />
             </div>
             <div class="blog-post-title">
-            <h1>Niraj Kumar</h1>
+            <h1>Dr. Hemant Dhabhai</h1>
             <span>
-            C.A, Ph.D.
+            Ph.D.
             <br />
-            Chairperson, Mewar University
+            Director, AITS Udaipur
             <br />
             Phone: 9891****93
             <br />
-            Email:akg@mewruniversity.com
+            Email:abc@aravalicollege.org
             <br />
             Profile :
-            <a href="https://www.mimcs.com/chairman%27s_profile.php">https://www.mimcs.com/chairman%27s_profile.php</a>
+            <a href="">https://abc.com</a>
             </span>
             </div>
             </div>
@@ -109,49 +86,26 @@ const Editors = () => {
         <div class="main-div">
         <div className="flex-set">
             <div class="blog-post-img">
-            <img src="/img/a.jpg" alt="" />
+            <img src="/img/.jpg" alt="" />
             </div>
             <div class="blog-post-title">
-            <h1>Dr Ahsan Z. Rizvi</h1>
+            <h1>Dr. Jitendra Singh Chouhan</h1>
             <span>
-            C.A, Ph.D.
+            Ph.D.
             <br />
-            Chairperson, Mewar University
+            H.O.D. of CS, AITS
             <br />
             Phone: 9891****93
             <br />
-            Email:akg@mewruniversity.com
+            Email:abc@aravalicollege.org
             <br />
             Profile :
-            <a href="https://www.mimcs.com/chairman%27s_profile.php">https://www.mimcs.com/chairman%27s_profile.php</a>
+            <a href="">https://abc.com</a>
             </span>
             </div>
             </div>
         </div>
           
-        <h1>Associate Editor</h1>
-        <div class="main-div">
-        <div className="flex-set">
-            <div class="blog-post-img">
-            <img src="/img/g.jpg" alt="" />
-            </div>
-            <div class="blog-post-title">
-            <h1>Shashank Kumar Dwivedi</h1>
-            <span>
-            C.A, Ph.D.
-            <br />
-            Chairperson, Mewar University
-            <br />
-            Phone: 9891****93
-            <br />
-            Email:akg@mewruniversity.com
-            <br />
-            Profile :
-            <a href="https://www.mimcs.com/chairman%27s_profile.php">https://www.mimcs.com/chairman%27s_profile.php</a>
-            </span>
-            </div>
-            </div>
-        </div>
     </div>
     </div>
   );
