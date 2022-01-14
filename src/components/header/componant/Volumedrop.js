@@ -40,26 +40,30 @@ const Volumedrop = ({ year }, props) => {
                 width: "100%",
                 display: "flex",
                 position: "relative",
-                padding: "20px",
+                padding: "10px",
               }}
               onMouseEnter={() => {
                 getData(item);
               }}
               onMouseLeave={() => setData([])}
             >
-              <h1 style={{ color: "white" }}>{item}</h1>
+              <h1 style={{ color: "white", }}>{item}</h1>
               <i className="icon">
                 <FaAngleDown />
               </i>
 
+
               {data.length > 0 && (
                 <div
                   style={{
-                    position: "absolute",
-                    right: 5,
+                    display: "flex",
+                    flexDirection : "column",
+                    position: "relative",
+                    marginLeft: "10px",
+                    right: 0,
                     top: 0,
                     width: "100%",
-                    backgroundColor: "red",
+                    backgroundColor: "black",
                     height: "fit-content",
                   }}
                 >
@@ -67,7 +71,7 @@ const Volumedrop = ({ year }, props) => {
                     console.log("ite", ite.ur);
                     return (
                       <Link to={`/view/file/${year}/${i}`}>
-                        issue number {i + 1}
+                        Issue Number {i + 1}
                       </Link>
                     );
                   })}

@@ -44,9 +44,9 @@
 .slidebar {
   margin: 1rem 0rem;
   background-image: url("./1.jpg");
-  width: 94%;
-  height: 310px;
-  background-position: center;
+  width: 96%;
+  height: 400px;
+  background-size: cover;
   background-repeat: repeat-x;
   animation: slider 10s infinite step-start;
   box-shadow: 1px 1px 10px 0.5px #505757;
@@ -85,14 +85,14 @@
 .left-btn{
   align-content: flex-start;
   align-self: center;
-  margin-top:8rem ;
+  margin-top: 12rem ;
   margin-left: 1rem;
 }
 
 .right-btn{
   align-content: flex-end;
   align-self: center;
-  margin-top: 8rem;
+  margin-top: 12rem;
   margin-right: 1rem;
 }
 
