@@ -118,31 +118,31 @@ export const editorDropdown = [
   {
     id: 2,
     title: "Patron's message",
-    path: "./Editor/chairepersons-message",
+    path: "./Editor/Patron",
     cName: "submenu-item",
   },
   {
     id: 3,
     title: "Message of Secretary",
-    path: "./Editor/message-of-ethical-committee-chairman",
+    path: "./Editor/Secretary",
     cName: "submenu-item",
   },
   {
     id: 4,
     title: "Director's Message",
-    path: "./Editor/editors-message",
+    path: "./Editor/Director",
     cName: "submenu-item",
   },
   {
     id: 5,
     title: "Editor's Message",
-    path: "./Editor/associate-editors-message",
+    path: "./Editor/Editer",
     cName: "submenu-item",
   },
   {
     id: 6,
     title: "Finance Secretary",
-    path: "./development",
+    path: "./Editor/Finance",
     cName: "submenu-item",
   },
 ];

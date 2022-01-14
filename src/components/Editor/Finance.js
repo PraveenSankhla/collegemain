@@ -1,31 +1,32 @@
-import React from "react";
-import "./chairman.css";
+import React from 'react'
+import './Finance.css'
 
-const Chairman = () => {
+const Finance = () => {
     return (
-      <div className='chairman'>
-      <div class="chairman-blog">
-        <div class="chairman-blog-post">
-          <h1>Patron's Message</h1>
-          <div className="chairman-flex-set">
-          <div class="chairman-blog-post-img">
-            <img src="/img/1.png" alt="patron" />
+      <div className='Finance'>
+      <div class="Finance-blog">
+        <div class="Finance-blog-post">
+          <h1>Finance Message</h1>
+          <div className="Finance-flex-set">
+          <div class="Finance-blog-post-img">
+            <img src="/img/2.jpg" alt="" />
           </div>
-            <div class="chairman-blog-post-title">
-                  <h1>Mr. Om Prakash Agrawal</h1>
+            <div class="Finance-blog-post-title">
+                  <h1>Mr. Amit Agrawal</h1>
                 <span>
-                  <b>Patron</b><br/> Aravali Group Of College<br />
-                  Phone: 9891****73<br />
+                  Ph.D.<br />
+                  Finance Secretary, Aravali Group of Colleges<br />
+                  Phone: 9891****93<br />
                   Email:abc@aravalicollege.org<br />
                   Profile :
-                  <a href="">https://www.abc.com</a>
+                  <a href="">https://abc.com</a>
                 </span>
                 </div>
                 </div>
                 </div>
 
 
-          <div class="chairman-message">
+          <div class="Finance-message">
             <p>
               Welcome to the online edition of Aravali Journal of Technical Research (AJTR).
               This year marks a milestone in the history of the journal because
@@ -46,14 +47,15 @@ const Chairman = () => {
               articles. Instead, we should find better articles that discuss new
               ideas and research directions, original articles that can create
               deep interest in the readership of the journal and content that
-              the researchers do not want to miss. I thanks to our mentor Om Prakash Agrawal, Patron, Aravali group of College, my
+              the researchers do not want to miss. I thanks to our mentor
+              Mr. Amit Agrawal, Finance Secretary, Aravali Institute of Technical Studies, my
               associates and juniors. I am also thankful to our reviewers and
-              Patron for their valuable suggestion.
+              Finance for their valuable suggestion.
             </p>
           </div>
           </div>
           </div>
   );
-};    
-    
-export default Chairman
+};
+
+export default Finance

@@ -11,10 +11,11 @@ import MissionAndVision from "./components/about/MissionAndVision";
 import Sidebar from "./components/Sidebar.js/Sidebar";
 import Contact from "./components/Contact/Contact";
 import Editor from "./components/Editor/Editors";
-import Chairman from "./components/Editor/Chairman";
-import Vicecanceler from "./components/Editor/Vicecanceler";
-import Editorsmessage from "./components/Editor/Editorsmessage";
+import Patron from "./components/Editor/Patron";
+import Secretary from "./components/Editor/Secretary";
+import Director from "./components/Editor/Director";
 import Associate from "./components/Editor/Associate";
+import Finance from "./components/Editor/Finance";
 import Cpaper from "./components/Callforpaper/Cpaper";
 import TAD from "./components/TurnAroundDates/TAD";
 import About from "./components/about/About";
@@ -24,8 +25,6 @@ import Guidlinesub from "./components/submissions/Guidlinesub";
 import AddNews from "./components/admin/AddNews";
 import UploadVolume from "./components/admin/UploadVolume";
 import Volumes from "./components/pdffile/Volumes";
-// import Chairman from "./components/Editor/Chairman";
-// import Vicecanceler from "./components/Editor/Vicecanceler";
 
 const AllRoutes = () => {
   const [showSideBar, setShowSideBar] = useState(true);
@@ -52,21 +51,26 @@ const AllRoutes = () => {
             <Route path="/Editor/editornew" element={<editornew />} />
 
             <Route
-              path="/Editor/chairepersons-message"
-              element={<Chairman />}
+              path="/Editor/Patron"
+              element={<Patron />}
             />
             <Route
-              path="/Editor/message-of-ethical-committee-chairman"
-              element={<Vicecanceler />}
+              path="/Editor/Secretary"
+              element={<Secretary />}
             />
             <Route
-              path="/Editor/editors-message"
-              element={<Editorsmessage />}
+              path="/Editor/Director"
+              element={<Director />}
             />
             <Route
-              path="/Editor/associate-editors-message"
+              path="/Editor/Editer"
               element={<Associate />}
             />
+
+            <Route
+              path="/Editor/Finance"
+              element={<Finance />}
+            />  
             <Route
               path="/about/MissionAndVision"
               element={<MissionAndVision />}

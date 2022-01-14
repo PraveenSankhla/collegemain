@@ -1,21 +1,22 @@
-import React from 'react'
-import './editormessage.css'
+import React from "react";
+import "./Secretary.css";
 
-const Editorsmessage = () => {
-    return (
-      <div className='editors'>
-      <div class="editors-blog">
-        <div class="editors-blog-post">
-          <h1>Director Message</h1>
-          <div className="editors-flex-set">
-          <div class="editors-blog-post-img">
-            <img src="/img/5.png" alt="" />
+const Vicecanceler = () => {
+  return (
+
+    <div className='vicechancler'>
+      <div class="vicechancler-blog">
+        <div class="vicechancler-blog-post">
+          <h1>Secretary Message</h1>
+          <div className="vicechancler-flex-set">
+          <div class="vicechancler-blog-post-img">
+            <img src="/img/3.png" alt="" />
           </div>
-            <div class="editors-blog-post-title">
-                  <h1>Dr. Hemant Dhabhai</h1>
+            <div class="vicechancler-blog-post-title">
+                  <h1>Mr. N. L. Khetan</h1>
                 <span>
-                  Ph.D.<br />
-                  Director, AITS Udaipur<br />
+                  
+                  Secretary, Aravali Group of College<br />
                   Phone: 9891****93<br />
                   Email:abc@aravalicollege.org<br />
                   Profile :
@@ -26,7 +27,7 @@ const Editorsmessage = () => {
                 </div>
 
 
-          <div class="editors-message">
+          <div class="vicechancler-message">
             <p>
               Welcome to the online edition of Aravali Journal of Technical Research (AJTR).
               This year marks a milestone in the history of the journal because
@@ -38,7 +39,7 @@ const Editorsmessage = () => {
               state-of-the-art content and critical review articles. This will
               help us in scoring high in performance measures and moving up in
               journal ranking lists. We have also modified the journal to
-              reflect the aim and scope of AJTR. We continue to publish excellent
+              reflect the aim and scope of IJR. We continue to publish excellent
               articles, and our rejection rates are much higher compared to many
               top journals. It is time for us to look at the journal as truly
               international and continue to work hard to help the journal in
@@ -48,9 +49,9 @@ const Editorsmessage = () => {
               ideas and research directions, original articles that can create
               deep interest in the readership of the journal and content that
               the researchers do not want to miss. I thanks to our mentor Dr
-              Hemant Dhabhai, Director, Aravali Institute of Technical Studies, my
+              Ashok Kumar Gadiya, Chairman, Mewar group of institution, my
               associates and juniors. I am also thankful to our reviewers and
-              editors for their valuable suggestion.
+              vicechancler for their valuable suggestion.
             </p>
           </div>
           </div>
@@ -58,4 +59,4 @@ const Editorsmessage = () => {
   );
 };
 
-export default Editorsmessage
+export default Vicecanceler;
