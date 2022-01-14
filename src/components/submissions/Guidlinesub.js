@@ -4,6 +4,7 @@ import "./guidesub.css";
 const Guidlinesub = () => {
   return (
     <>
+    <div className="sub-main">
       <div className="book-main">
         <h1 className="set">Submission Guidelines</h1>
         <p className="chal">
@@ -80,6 +81,7 @@ const Guidlinesub = () => {
           <li>Discussion</li>
           <li>Reference in APA style</li>
         </ul>
+      </div>
       </div>
     </>
   );

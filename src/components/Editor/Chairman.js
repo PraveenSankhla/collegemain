@@ -9,7 +9,7 @@ const Chairman = () => {
           <h1>Patron's Message</h1>
           <div className="chairman-flex-set">
           <div class="chairman-blog-post-img">
-            <img src="/img/b.jpg" alt="patron" />
+            <img src="/img/a.png" alt="patron" />
           </div>
             <div class="chairman-blog-post-title">
                   <h1>Mr. Om Prakash Agrawal</h1>

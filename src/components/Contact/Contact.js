@@ -1,11 +1,14 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import "./Contact.css";
 import { Map, InfoWindow, Marker, GoogleApiWrapper } from "google-maps-react";
 const Contact = ({ google, onMarkerClick }) => {
 
+  useEffect(() => {
+    const contact=document.getElementById("contact").parentElement.style.width="100%"
+  }, [])
   return (
     <>
-    <div className="main-contact" >
+    <div id="contact" className="main-contact" >
       <div className="contact-main">
         <div className="contact">
           <article className="col-md">
