@@ -41,12 +41,14 @@ const Volumes = (props) => {
 
   return (
     <div className="main-pdf">
-    <div>
-      <Document file={url} onLoadSuccess={onDocumentLoadSuccess}>
-        <Page pageNumber={1} />
-      </Document>
-      <button onClick={() => downloadFile()}>Download PDF</button>
-    </div>
+      <div>
+        <Document file={url} onLoadSuccess={onDocumentLoadSuccess}>
+          <Page pageNumber={1} />
+        </Document>
+
+        {url && <iframe src={url}></iframe>}
+        <button onClick={() => downloadFile()}>Download PDF</button>
+      </div>
     </div>
   );
 };
