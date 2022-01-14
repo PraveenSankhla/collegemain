@@ -59,7 +59,6 @@ const Volumedrop = ({ year }, props) => {
                   width: "fit-content",
                   height: "fit-content",
                   display: "flex",
-                  paddingLeft: 20,
                   paddingRight: 20,
                   flexDirection: "column",
                   backgroundColor: "black",
