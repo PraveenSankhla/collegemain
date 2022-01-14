@@ -40,17 +40,19 @@ const Volumedrop = ({ year }, props) => {
                 width: "100%",
                 display: "flex",
                 position: "relative",
-                padding: "10px",
+                padding: "2px 6px",
+                cursor:"pointer",
+                fontSize:"14px"
               }}
               onMouseEnter={() => {
                 getData(item);
               }}
               onMouseLeave={() => setData([])}
             >
-              <h1 style={{ color: "white", }}>{item}</h1>
-              <i className="icon">
+              <h1 style={{ color: "white",  }}>{item}</h1>
+              {/* <i className="icon">
                 <FaAngleDown />
-              </i>
+              </i> */}
 
               <div
                 style={{

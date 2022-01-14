@@ -62,7 +62,7 @@ const TAD = ({ setShowSideBar }) => {
                   </td>
                 </tr>
 
-                <tr>
+                {/* <tr>
                   <td className="has-row" data-align="left">
                     Happiness of College Teachers&nbsp;
                   </td>
@@ -226,9 +226,9 @@ const TAD = ({ setShowSideBar }) => {
                   <td className="has-row-2" data-align="center">
                     30 Nov 2020
                   </td>
-                </tr>
+                </tr> */}
 
-                <tr>
+                {/* <tr>
                   <td className="has-row" data-align="left">
                     Role of Social Media in Teaching and Learning Process: An
                     Overview of Lockdown Period due to Covid-19 Pandemic
@@ -249,7 +249,7 @@ const TAD = ({ setShowSideBar }) => {
                   <td className="has-row-2" data-align="center">
                     30 Nov 2020
                   </td>
-                </tr>
+                </tr> */}
 
                 <tr>
                   <td className="has-row" data-align="left">
@@ -275,7 +275,7 @@ const TAD = ({ setShowSideBar }) => {
                   </td>
                 </tr>
 
-                <tr>
+                {/* <tr>
                   <td className="has-row" data-align="left">
                     Sustainable Construction: From Pre-Engineered to
                     Prefabricated Prefinished Volumetric Construction
@@ -414,7 +414,7 @@ const TAD = ({ setShowSideBar }) => {
                   <td className="has-row-2" data-align="center">
                     22 July 2020
                   </td>
-                </tr>
+                </tr> */}
 
                 <tr>
                   <td className="has-row" data-align="left">
@@ -461,7 +461,7 @@ const TAD = ({ setShowSideBar }) => {
                   </td>
                 </tr>
 
-                <tr>
+                {/* <tr>
                   <td className="has-row" data-align="left">
                     Hypoxic Mechanisms in the Carbon Monoxide – Induced Injury
                     to Cardiac &amp; Other Tissues in Acute Poisoning : A Note
@@ -482,9 +482,9 @@ const TAD = ({ setShowSideBar }) => {
                   <td className="has-row-2" data-align="center">
                     &nbsp;
                   </td>
-                </tr>
+                </tr> */}
 
-                <tr>
+                {/* <tr>
                   <td className="has-row" data-align="left">
                     Incubation Centres: Impact on Research and Entrepreneurship
                     Aspirants
@@ -504,7 +504,7 @@ const TAD = ({ setShowSideBar }) => {
                   <td className="has-row-2" data-align="center">
                     &nbsp;
                   </td>
-                </tr>
+                </tr> */}
               </tbody>
             </table>
           </figure>

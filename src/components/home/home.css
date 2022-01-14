@@ -45,9 +45,9 @@
   margin: 1rem 0rem;
   background-image: url("./1.jpg");
   width: 96%;
-  height: 400px;
-  background-size: cover;
-  background-repeat: repeat-x;
+  height: 300px;
+  background-size: contain;
+  background-repeat: round;
   animation: slider 10s infinite step-start;
   box-shadow: 1px 1px 10px 0.5px #505757;
 }
@@ -85,14 +85,14 @@
 .left-btn{
   align-content: flex-start;
   align-self: center;
-  margin-top: 12rem ;
+  margin-top: 8rem ;
   margin-left: 1rem;
 }
 
 .right-btn{
   align-content: flex-end;
   align-self: center;
-  margin-top: 12rem;
+  margin-top: 8rem;
   margin-right: 1rem;
 }
 
@@ -281,5 +281,19 @@
   .bot {
     margin: 0.10rem 0.1rem;
     padding-left: 0.50rem;
+  }
+}
+
+@media only screen and (max-width: 355px) {
+  .slidebar{
+    height: 140px;
+  }
+
+  .left-btn{
+    margin-top: 4rem;
+  }
+
+  .right-btn{
+    margin-top: 4rem;
   }
 }

@@ -7,7 +7,7 @@ const Objectives = () => {
   <h1 className="Title">Objectives</h1>
   <div className="entry-content">
   <p className="content-page">
-     Journal of Indian Research (JIR) is a journal dedicated to promote and publish original articles 
+  The Aravali Journal of Technical Research (AJTR) is a journal dedicated to promote and publish original articles 
      in the relevant multidisciplinary research field and aims to reduce the gap between research and practice. 
   </p>
   <p className="content-page">
@@ -15,7 +15,7 @@ const Objectives = () => {
     Accepts academic papers, case studies, articles that contribute to current research areas mentioned. 
   </p>
   <p className="content-page">
-    JIR provides perspectives on topics relevant to the study. All papers a peer reviewed. The Editor reserves the right to reject papers that, 
+    AJTR provides perspectives on topics relevant to the study. All papers a peer reviewed. The Editor reserves the right to reject papers that, 
     in the view of the editorial board, are either of insufficient quality, or are not relevant to the subject area. 
   </p>
   <p className="content-page">
