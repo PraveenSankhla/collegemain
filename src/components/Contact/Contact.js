@@ -8,8 +8,7 @@ const Contact = ({ google, onMarkerClick }) => {
   }, [])
   return (
     <>
-    <div id="contact" className="main-contact" >
-      <div className="contact-main">
+      <div id="contact" className="contact-main">
         <div className="contact">
           <article className="col-md">
             <div className="contact-body-page">
@@ -130,7 +129,6 @@ const Contact = ({ google, onMarkerClick }) => {
             </div>
           </article>
         </div>
-      </div>
       </div>
     </>
   );

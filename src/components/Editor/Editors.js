@@ -86,7 +86,7 @@ const Editors = () => {
         <div class="main-div">
         <div className="flex-set">
             <div class="blog-post-img">
-            <img src="/img/.jpg" alt="" />
+            <img src="/img/6.jpg" alt="" />
             </div>
             <div class="blog-post-title">
             <h1>Dr. Jitendra Singh Chouhan</h1>

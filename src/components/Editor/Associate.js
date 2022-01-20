@@ -9,7 +9,7 @@ const Associate = () => {
           <h1>Editor's Message</h1>
           <div className="associate-flex-set">
           <div class="associate-blog-post-img">
-            <img src="/img/.png" alt="" />
+            <img src="/img/6.jpg" alt="" />
           </div>
             <div class="associate-blog-post-title">
                   <h1>Dr. Jitendra Singh Chouhan</h1>
