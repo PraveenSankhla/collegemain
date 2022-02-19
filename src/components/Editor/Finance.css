@@ -1,0 +1,37 @@
+.Finance{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.Finance-blog{
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+.Finance-blog-post-img{
+    padding-top: 0.5rem;
+}
+
+.Finance-blog-post-img img{
+    height: 150px;
+    width: 150px;
+}
+
+.Finance-flex-set{
+    display: flex;
+  }
+
+.Finance-blog-post-title{
+    padding-left: 1rem;
+}  
+
+.Finance-message p{
+    font-size: 16px;
+    line-height: 1.2;
+    word-wrap: break-word;
+    padding: 2rem 0rem;
+    margin-left: 1rem;
+}

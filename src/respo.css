@@ -1,0 +1,21 @@
+body {
+  background-color: #dddcce;
+  text-align: justify;
+}
+.repo {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+  margin-top: 20px;
+}
+@media screen and (max-width: 951px) {
+  .repo {
+    width: 100%;
+    margin: 0;
+  }
+  .respo {
+    margin-left: 0;
+    width: 100%;
+  }
+}

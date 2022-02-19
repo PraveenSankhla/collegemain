@@ -1,0 +1,23 @@
+.about{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: white;
+    font-family: Calibri Light;
+}
+
+.about h1{
+    margin-left: 1rem;
+    font-size: 36px;
+    padding: 0.5rem 1.5rem;
+}
+
+.about p{
+    margin: 0px 1px;
+    line-height: 1.8;
+    word-wrap: break-word;
+    padding: 0.5rem 0.5rem 0rem 2.5rem;
+}
+
+ 

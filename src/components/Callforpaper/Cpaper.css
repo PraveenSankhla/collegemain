@@ -1,0 +1,38 @@
+.Cpaper{
+    width: 100%;
+    background-color: white;
+    font-family: "Calibri light";
+}
+.main-block{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-head{
+    margin-left: 1rem;
+    padding: 0.5rem 0.5rem;
+    font-weight: 700;
+    color: black;
+    letter-spacing: -.02em;
+    font-size: 36px;
+    margin-top: 10px;
+    line-height: 1.1;
+}
+
+span{
+    margin-left: 0.5rem;
+    color: #ff6900;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+p{  
+    margin-left: 2rem;
+    line-height: 1.4;
+    font-size: 15px;
+    font-weight: 400;
+    color: #202020;
+    font-family: "Calibri light";
+}

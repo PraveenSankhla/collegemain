@@ -1,0 +1,36 @@
+.main-plagiarism {
+    background-color: white;
+    width: 100%;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+
+  }  
+
+
+  .main-plagiarism h2{
+      padding-left: 5%;
+  }
+
+  .main-plagiarism h3{
+      padding-left: 5%;
+  }
+
+  .main-plagiarism p{
+      padding-left: 3%;
+      font-size: 15px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+.main-plagiarism ul{
+    padding-left: 8%;
+    padding-top: 2%;
+}
+
+.main-plagiarism ul li{
+    margin: 10px;
+}
+
+.main-plagiarism a{
+    font-size: 20px;
+}
