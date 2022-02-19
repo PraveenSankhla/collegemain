@@ -13,6 +13,16 @@
   justify-items: center;
 }
 
+marquee{
+  border: 1px solid black;
+  background-color: red;
+}
+
+marquee p{
+  color: white;
+  font-size: 18px;
+}
+
 
 @media screen and (max-width: 999px) {
   .header-img {

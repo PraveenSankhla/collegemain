@@ -16,16 +16,13 @@ const Cpaper = () => {
       <br />
       <p>
       Aravali Journal of Technical Research (AJTR) solicits original and unpublished
-        research papers for its current issue (AJTR, Volume 1, issue
-        1 ). Please send your Research paper at{" "}
+        research papers for its current issue. Please send your Research paper at
         <a
           rel="nonreferrer nooperner"
           href="mailto:ajtr@aravalicollege.org"
           target="_blank"
-        >
-          ajtr@aravalicollege.org
-        </a>{" "}
-        , latest by 15 January 2022
+        >ajtr@aravalicollege.org
+        </a>
       </p>
       <br />
       <p>

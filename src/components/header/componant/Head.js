@@ -6,10 +6,16 @@ const Head = () => {
         <>
         
             <div className='header-img'>
-                <img src="https://www.aravalieducation.org/wp-content/uploads/2021/07/Aravali-Banner.jpeg"/>
+                <img src="/img/0002.jpg"/>
             </div>
         
-        
+            <marquee behavior="scroll" direction="left" 
+                    onmouseout="this.start()" onmouseover="this.stop()" 
+                    scrolldelay='1' scrollamount='7'>
+                    <p>
+                    Welcome to Aravali Journal of Technical Research(AJTR).....🙏🙏
+                    </p>
+                    </marquee>
         </>
     )
 }

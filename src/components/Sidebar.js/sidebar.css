@@ -21,6 +21,7 @@
 }
 
 .searchdiv h3 {
+  text-align: left;
   background-color: #ff6900;
   font-size: 15px;
   color: white;

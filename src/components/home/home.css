@@ -153,10 +153,14 @@
 
 .middle-div img {
   overflow: hidden;
+  margin-left: 3rem;
+  margin-right: 1rem;
 }
 
 .img2 {
-  padding-left: 4rem;
+  /* padding-left: 4rem; */
+  border: 1px solid black;
+  width: 90%;
 }
 
 .bot {

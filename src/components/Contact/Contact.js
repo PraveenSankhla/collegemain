@@ -30,9 +30,11 @@ const Contact = ({ google, onMarkerClick }) => {
           </strong>
           <br />
           <strong>Office Address: </strong>
-              Umarda
+              Aravali Institute of Technical Studies
+              <br/>
+              Aravali knowledge Campus
               <br />
-              Udaipur, Rajashthan-343002
+              Umarda, Udaipur, Rajashthan-343002
               <br />
               Phone: 020-47xxxxx0
               <br />
@@ -83,7 +85,7 @@ const Contact = ({ google, onMarkerClick }) => {
                     </span>
                   </strong>
                       <br />
-                      Coordinator
+                      Co-Ordinator
                       <br />
                       Aravali Journal of Technical Research (AJTR)
                       <br />
@@ -91,10 +93,10 @@ const Contact = ({ google, onMarkerClick }) => {
                       <br />
                       Rajasthan, INDIA
                       <br />
-                      Mobile: +91 982 xxx xx59
+                      Mobile: +91 978 409 8746
                       <br />
                       Email :
-                  <strong>jitxxxxxxxx@gmail.com</strong>
+                  <strong>editor@aravalicollege.org</strong>
                       </td>
                     </tr>
                   </tbody>

@@ -13,12 +13,15 @@ const Guidlinesub = () => {
         including references and notes.
         </p>
         <p className="chal">
-          The journal publishes theory-based and critical essays of the highest
-          quality and book reviews in English. All papers are peer-reviewed by
+          All papers are peer-reviewed by
          peers who are active in the relevant fields of research, before
           publication.
           <br /> Articles should be sent to ajtr@aravalicollege.org.
         </p>
+        <br/>
+        <h3>Click here for Paper Template : </h3>
+        <a href="/img/AJTR Paper Format.pdf" target={'_blank'}>AJTR Template</a>
+        <br/>
         <br/>
         <h3 style={{ color: "peru", paddingLeft: "35px", fontSize: "25px" }}>
           Submission of Typescripts

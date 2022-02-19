@@ -20,7 +20,8 @@ import Cpaper from "./components/Callforpaper/Cpaper";
 import TAD from "./components/TurnAroundDates/TAD";
 import About from "./components/about/About";
 import Aim from "./components/Aim/Aim";
-import Booksubmission from "./components/submissions/Booksubmission";
+import Registerasreviewer from "./components/submissions/registerasreviewer";
+import Plagiarismchecker from "./components/submissions/plagiarismchecker";
 import Guidlinesub from "./components/submissions/Guidlinesub";
 import AddNews from "./components/admin/AddNews";
 import UploadVolume from "./components/admin/UploadVolume";
@@ -91,10 +92,12 @@ const AllRoutes = () => {
 
             <Route path="/Research/Research" element={<Research />}></Route>
             <Route
-              path="/submission/Booksubmission"
-              element={<Booksubmission />}
+              path="/submission/registerasreviewer"
+              element={<Registerasreviewer />}
             />
             <Route path="/submission/Guidlinesub" element={<Guidlinesub />} />
+
+            <Route path="/submission/plagiarismchecker" element={<Plagiarismchecker />} />
 
             <Route />
             <Route

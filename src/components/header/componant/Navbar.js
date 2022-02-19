@@ -49,7 +49,7 @@ const Navbar = () => {
           onClick={() => setIsMobileView(false)}
         >
           {navItems.map((item) => {
-            if (item.title === "Aboutus")
+            if (item.title === "About Us")
               return (
                 <li
                   key={item.id}
@@ -72,7 +72,7 @@ const Navbar = () => {
                 </li>
               );
 
-            if (item.title === "Aboutus") {
+            if (item.title === "About Us") {
               console.log("comming to aboutus");
               AboutusDropdown.map((item) => {
                 return (
@@ -88,7 +88,7 @@ const Navbar = () => {
                 );
               });
             }
-            if (item.title === "Issue of our journel")
+            if (item.title === "Issues of Journal")
               return (
                 <li
                   key={item.id}
@@ -113,7 +113,7 @@ const Navbar = () => {
                 </li>
               );
 
-            if (item.title === "Guidlines")
+            if (item.title === "Guidelines")
               return (
                 <li
                   key={item.id}
@@ -135,7 +135,7 @@ const Navbar = () => {
                   {!isMobileView && guidlinesdrop && <Guidlinesdrop />}
                 </li>
               );
-            if (item.title === "Editorial")
+            if (item.title === "Editorial Board")
               return (
                 <li
                   key={item.id}

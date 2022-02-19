@@ -9,7 +9,7 @@ const MissionAndVision = () => {
     <h3 className="sub-Mis-heading">Mission</h3>
      <p className="content-page">
      The mission of AJTR is to provide the worldwide community with a platform for the innovative research and advancements in multidisciplinary fields . 
-     JIR focuses on interdisciplinary techniques and state-of-the-art research among various disciplines related to the different fields.
+     AJTR focuses on interdisciplinary techniques and state-of-the-art research among various disciplines related to the different fields.
      </p>
      <h3 className="sub-Mis-heading">Vision</h3>
      <p className="content-page">The vision of AJTR is to provide an academic medium and an important reference for the advancement and dissemination of research results that support high-level learning, teaching and research in the various fields. Original research work, theoretical work, 

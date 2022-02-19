@@ -62,6 +62,26 @@ return (
                     <th>Computer Science & System Studies </th>
                     <td> Computer Application</td>
                 </tr>
+
+                <tr>
+                    <th>Humanities and Social Science</th>
+                    <td>Arts</td>
+                </tr>
+
+                <tr>
+                    <th>Legal Studies</th>
+                    <td>Law</td>
+                </tr>
+
+                <tr>
+                    <th>Mass and Media Communication</th>
+                    <td>Mass and Media Communication</td>
+                </tr>
+
+                <tr>
+                    <th>Commerce and Management</th>
+                    <td>Commerce and management</td>
+                </tr>
             </table>
             </div>
 </>

@@ -251,7 +251,7 @@ const TAD = ({ setShowSideBar }) => {
                   </td>
                 </tr> */}
 
-                <tr>
+                {/* <tr>
                   <td className="has-row" data-align="left">
                     An Application of Student Data to Forecast Education Results
                     of Student by Using Classification Techniques
@@ -273,7 +273,7 @@ const TAD = ({ setShowSideBar }) => {
                   <td className="has-row-2" data-align="center">
                     30 Nov 2020
                   </td>
-                </tr>
+                </tr> */}
 
                 {/* <tr>
                   <td className="has-row" data-align="left">
@@ -416,7 +416,7 @@ const TAD = ({ setShowSideBar }) => {
                   </td>
                 </tr> */}
 
-                <tr>
+                {/* <tr>
                   <td className="has-row" data-align="left">
                     Synthetic Routes, Characterization and Biological
                     Significance of 1, 2, 4-Triazine Derivatives: Comprehensive
@@ -437,9 +437,9 @@ const TAD = ({ setShowSideBar }) => {
                   <td className="has-row-2" data-align="center">
                     &nbsp;
                   </td>
-                </tr>
+                </tr> */}
 
-                <tr>
+                {/* <tr>
                   <td className="has-row" data-align="left">
                     Cyclic Peptides as Therapeutic Agents and Biochemical
                     Tools&nbsp;
@@ -459,7 +459,7 @@ const TAD = ({ setShowSideBar }) => {
                   <td className="has-row-2" data-align="center">
                     &nbsp;
                   </td>
-                </tr>
+                </tr> */}
 
                 {/* <tr>
                   <td className="has-row" data-align="left">

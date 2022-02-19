@@ -37,21 +37,21 @@ const Mainnavbar = (props) => {
               to="./About"
               style={{ color: getColor("/About") }}
             >
-              AboutUS
+              About Us
             </Link>
             <Link
               className="header-editor"
               to="./Editor/Editors"
               style={{ color: getColor("/Editor/Editors") }}
             >
-              Editor message
+              Editorial Board
             </Link>
             <Link
               className="header-contact"
               to="/Contact/Contact"
               style={{ color: getColor("/Contact/Contact") }}
             >
-              ContactUs{" "}
+              Contact Us{" "}
             </Link>
 
           </div>

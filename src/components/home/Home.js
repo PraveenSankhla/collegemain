@@ -17,12 +17,12 @@ return (
             The Aravali Journal of Technical Research (AJTR) (ISSN: (Online) xxxx -xxxx) is
             a quarterly peer-reviewed, online, open-access (OA), journal
             supported by an editorial board comprising of subject matter experts
-            drawn from all disciplines of Engineering and Technology.
+            drawn from all disciplines.
           </p>
 
           
           {/* Slidebar Start */}
-          <div className="slidemain">
+          {/* <div className="slidemain">
           <div className="slidebar" id="slidebar">
          
           <div className="slides">
@@ -30,7 +30,7 @@ return (
               <button className="right-btn" onClick={changeImg} value='change'><BsChevronRight/></button>
           </div>
           </div>
-          </div>
+          </div> */}
 
           {/* Slidebar End */}
 
@@ -39,7 +39,7 @@ return (
               The main purpose of the <b>Aravali Journal of Technical Research (AJTR)</b> is to
               bring into focus the latest developments in the field of research
               by academicians and students. AJTR publishes research papers on the
-              topics related to science, engineering, information technology,
+              topics related to science, engineering, information technology, arts, social science, law, management, commerce,
               etc. We welcome papers on topics related to core areas of research as well as on
               interdisciplinary topics. Please send your articles to : 
             </p>
@@ -69,7 +69,7 @@ return (
               </a> */}
               
               <img
-                src="https://jir.mewaruniversity.org/wp-content/uploads/2021/09/Jir-Vol-9-Issue-12.jpg"
+                src="/img/0001.jpg"
                 alt="pk"
                 className="img2"
               />

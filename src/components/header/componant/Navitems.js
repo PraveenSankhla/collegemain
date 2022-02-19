@@ -1,7 +1,6 @@
 export const navItems = [
   
     {
-
       id: 1,
       title: "Home",
       path: "./",
@@ -9,56 +8,56 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Aboutus",
+      title: "About Us",
       path: "./about",
       cName: "nav-item",
       symbol:"<FaAngleDown/>",
     },
     {
       id: 3,
-      title: "Issue of our journel",
+      title: "Issues of Journal",
       path: "./pdffile/Volumes",
       cName: "nav-item",
     },
     {
       id: 4,
-      title: "Guidlines",
+      title: "Guidelines",
       path: "./",
       cName: "nav-item",
     },
     {
         id: 5,
-        title: "Editorial",
+        title: "Editorial Board",
         path: "./editorial",
         cName: "nav-item",
       },
       {
         id: 6,
-        title: "Call for paper",
+        title: "Call for Paper",
         path: "./Callforpaper/Cpaper",
         cName: "nav-item",
       },
       {
         id:7 ,
-        title: "Aim and scope",
+        title: "Aim and Scope",
         path: "./Aim/Aim",
         cName: "nav-item",
       },
       {
         id:8 ,
-        title: "Turn Around dates",
+        title: "Turn Around Dates",
         path: "./turnaround/TAD",
         cName: "nav-item",
       },
       {
         id:9 ,
-        title: "Resesach papers",
+        title: "Research Paper",
         path: "./research/research",
         cName: "nav-item",
       },
       {
         id:10 ,
-        title: "Contacts",
+        title: "Contact Us",
         path: "./Contact/Contact",
         cName: "nav-item",
       },
@@ -88,14 +87,21 @@ export const AboutusDropdown = [
 export const Guidlinesdropdown = [
   {
     id: 1,
-    title: "BooklineGuildline",
-    path: "./submission/Booksubmission",
+    title: "Register As Reviewer",
+    path: "./submission/registerasreviewer",
     cName: "submenu-item",
   },
   {
     id: 2,
     title: "SubmissionGuidline",
     path: "./submission/Guidlinesub",
+    cName: "submenu-item",
+  },
+
+  {
+    id: 3,
+    title: "Plagiarism Checker",
+    path: "./submission/plagiarismchecker",
     cName: "submenu-item",
   },
 ];
