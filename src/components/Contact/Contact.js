@@ -109,7 +109,6 @@ const Contact = ({ google, onMarkerClick }) => {
                     <Map
                       google={google}
                       zoom={14}
-                      // style={{ width: "auto", height: "400px" }}
                       center={{
                         lat: 24.524552,
                         lng: 73.770393,

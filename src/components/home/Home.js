@@ -1,13 +1,7 @@
 import React from "react";
-import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 import "./home.css";
 
 const Home = () => {
-
-  let changeImg =()=>{
-  // let bg =  document.getElementById("slidebar")
-  // bg.style.backgroundImage = "url(./img.jpg)"
-  }
 
 return (
       <div className="home-blog">
@@ -19,20 +13,6 @@ return (
             supported by an editorial board comprising of subject matter experts
             drawn from all disciplines.
           </p>
-
-          
-          {/* Slidebar Start */}
-          {/* <div className="slidemain">
-          <div className="slidebar" id="slidebar">
-         
-          <div className="slides">
-              <button className="left-btn" onClick={changeImg} value='change'><BsChevronLeft/></button>
-              <button className="right-btn" onClick={changeImg} value='change'><BsChevronRight/></button>
-          </div>
-          </div>
-          </div> */}
-
-          {/* Slidebar End */}
 
           <div className="middle-div">
             <p>
@@ -58,16 +38,7 @@ return (
               do not necessarily represent the viewpoint of the Journal.
             </p>
             <hr />
-{/* 
-            <img
-              src="https://jir.mewaruniversity.org/wp-content/uploads/2021/02/magazinefront-768x259.png"
-              alt="Image-2"
-            /> */}
             <div className="mainbtn">
-              {/* <a href="https://www.aravalieducation.org/">
-                <button className="btn">Get All Issue for JIR</button>
-              </a> */}
-              
               <img
                 src="/img/0001.jpg"
                 alt="pk"

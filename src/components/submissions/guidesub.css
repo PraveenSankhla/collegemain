@@ -4,7 +4,8 @@
     width: 100%;
     flex-direction: column;
     background-color: white;
-    padding: 2% 0.5%;
+    padding-top: 2%;
+    padding-bottom: 5%;
 }
 
 .set
@@ -17,9 +18,9 @@
 }
 
 .chol li{
-    
-    font-family: system-ui;   
     padding: 5px;
+    font-family: system-ui;   
+    margin-left: 8%;
 }
 .get{
     font-family: serif;

@@ -13,8 +13,6 @@ import {
 import { getDownloadURL, getStorage, ref, uploadBytes } from "firebase/storage";
 import { db } from "../../firebase";
 const UploadVolume = () => {
-  // const time = Date().now().millisecondsSinceEpoch.toString();
-  // console.log("time", time);
   const [file, setFile] = useState(false);
   const onHandleChange = (e) => {
     console.log("calling");
