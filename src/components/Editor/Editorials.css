@@ -27,16 +27,18 @@
 }
 
 .blog-post-img img {
-  width: 100px;
-  height: 100px;
+  margin: 0px 10px;
+  width: 130px;
+  height: 130px;
 }
 
 .blog-post-title h1 {
+  padding-top: 15px;
   display: flex;
-  color: rgba(200, 209, 27, 0.8);
-  font-size: 0.8rem;
+  color: black;
+  font-size: 1.1rem;
   font-weight: 700;
-  margin: 0.5rem 5rem;
+  margin: 0.5rem 3.8rem;
 }
 
 .blog-post-title span {
@@ -44,7 +46,7 @@
   flex-direction: column;
   margin-left: 4rem;
   margin-bottom: 2rem;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 @media only screen and (max-width: 480px) {

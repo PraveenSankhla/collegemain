@@ -6,7 +6,7 @@ const Guidlinesub = () => {
     <>
     <div className="sub-main">
       <div className="book-main">
-        <h1 className="set">Submission Guidelines</h1>
+        <h2 className="set">Submission Guidelines</h2>
         <p className="chal">
         Aravali Journal of Technical Research accepts manuscripts of 10-25 double spaced
           pages (font should be <b>Times New Roman</b> 12)

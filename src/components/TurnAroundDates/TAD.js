@@ -2,12 +2,12 @@ import React, { useEffect } from "react";
 import "./TAD.css";
 
 const TAD = ({ setShowSideBar }) => {
-  useEffect(() => {
-    setShowSideBar(false);
-    return () => {
-      setShowSideBar(true);
-    };
-  }, []);
+  // useEffect(() => {
+  //   setShowSideBar(false);
+  //   return () => {
+  //     setShowSideBar(true);
+  //   };
+  // }, []);
   
   return (
     <div className="body-block">
@@ -15,8 +15,8 @@ const TAD = ({ setShowSideBar }) => {
         <div className="main-block-2">
           <figure className="figure">
             <table className="table-main" border="1">
-              <thead>
-                <tr>
+              {/* <thead> */}
+            {/*    <tr>
                   <th className="has-row" data-align="left">
                     Title of Paper
                   </th>
@@ -61,7 +61,7 @@ const TAD = ({ setShowSideBar }) => {
                     25 Mar 2021
                   </td>
                 </tr>
-
+ */}
 
                 {/* <tr>
                   <td className="has-row" data-align="left">
@@ -84,7 +84,7 @@ const TAD = ({ setShowSideBar }) => {
                     &nbsp;
                   </td>
                 </tr> */}
-              </tbody>
+              {/* </tbody> */}
             </table>
           </figure>
         </div>

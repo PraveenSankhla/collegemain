@@ -25,13 +25,13 @@
 }
 
 .chairman-blog-post-title{
-  padding-left: 1rem;
+  padding-left: 1.5rem;
 }  
 
 .chairman-message p{
   font-size: 16px;
   line-height: 1.2;
   word-wrap: break-word;
-  padding: 2rem 0rem;
+  padding: 2rem 0.3rem;
   margin-left: 1rem;
 }

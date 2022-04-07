@@ -45,13 +45,13 @@ export const navItems = [
       },
       {
         id:8 ,
-        title: "Turn Around Dates",
+        title: "Copyright",
         path: "./turnaround/TAD",
         cName: "nav-item",
       },
       {
         id:9 ,
-        title: "Research Paper",
+        title: "Research Area",
         path: "./research/research",
         cName: "nav-item",
       },
@@ -87,7 +87,7 @@ export const AboutusDropdown = [
 export const Guidlinesdropdown = [
   {
     id: 1,
-    title: "Register As Reviewer",
+    title: "Register as Reviewer",
     path: "./submission/registerasreviewer",
     cName: "submenu-item",
   },

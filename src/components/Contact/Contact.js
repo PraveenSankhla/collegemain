@@ -21,8 +21,51 @@ const Contact = ({ google, onMarkerClick }) => {
           <figure className="block-table">
             <table>
               <tbody>
+              <tr>
+                <td>
+                <strong>
+                  <span className="name-head">
+                      Dr. Hemant Dhabhai
+                  </span>
+                </strong>
+                      <br />
+                      Director
+                      <br />
+                      Aravali Institue of technical studies
+                      <br />
+                      Rajasthan, INDIA
+                      <br />
+                      Mobile:
+                  <strong>+91 900 1275 999</strong>
+                      {/* <br />
+                      Toll-Free No,:
+                  <strong>180030xxxxx</strong> */}
+                      </td>
+                      <td>
+                  <strong>
+                    <span className="name-head">
+                      Dr. Jitendra Singh Chouhan
+                    </span>
+                  </strong>
+                      <br />
+                      Chief-Editor
+                      <br />
+                      Aravali Journal of Technical Research (AJTR)
+                      <br />
+                      Udaipur,
+                  
+                      Rajasthan, INDIA
+                      <br />
+                      Mobile: +91 978 409 8746
+                      <br />
+                      Email :
+                  <strong>editor@aravalicollege.org</strong>
+                      </td>
+                    </tr>
+                 
             <tr>
-          <td>
+          {/* <td> */}
+          <br/>
           <strong>
             <span className="name-head">
               Editor, Aravali Journal of Technical Research
@@ -36,13 +79,13 @@ const Contact = ({ google, onMarkerClick }) => {
               <br />
               Umarda, Udaipur, Rajashthan-343002
               <br />
-              Phone: 020-47xxxxx0
+              Phone: 9001055558
               <br />
               Email: ajtr@aravalicollege.org
               <br />
-              Website: https://aravalicollege.org
-            </td>
-          <td>
+              Website: https://aravalieducation.org
+            {/* </td> */}
+          {/* <td>
           <strong>
             <span className="name-head">
               Contact Number of Aravali college
@@ -56,52 +99,12 @@ const Contact = ({ google, onMarkerClick }) => {
                   Toll-Free No.:
               <strong>180030xxxxxx3</strong>
                   <br />
-                </td>
+                </td> */}
               </tr>
-              <tr>
-                <td>
-                <strong>
-                  <span className="name-head">
-                      Mr. Hemant Dhabhai
-                  </span>
-                </strong>
-                      <br />
-                      Director
-                      <br />
-                      Aravali Institue of technical studies
-                      <br />
-                      Rajasthan, INDIA
-                      <br />
-                      Mobile:
-                  <strong>+91 900 xxx xx27</strong>
-                      <br />
-                      Toll-Free No,:
-                  <strong>180030xxxxx</strong>
-                      </td>
-                      <td>
-                  <strong>
-                    <span className="name-head">
-                      Dr. Jitendra Singh Chouhan
-                    </span>
-                  </strong>
-                      <br />
-                      Co-Ordinator
-                      <br />
-                      Aravali Journal of Technical Research (AJTR)
-                      <br />
-                      AITS Umarda, Udaipur
-                      <br />
-                      Rajasthan, INDIA
-                      <br />
-                      Mobile: +91 978 409 8746
-                      <br />
-                      Email :
-                  <strong>editor@aravalicollege.org</strong>
-                      </td>
-                    </tr>
-                  </tbody>
+               </tbody>
                 </table>
               </figure>
+              
                   <h1 class="srm_gmap_heading_1 ">
                     Aravali Institute of Technical Studies
                   </h1>

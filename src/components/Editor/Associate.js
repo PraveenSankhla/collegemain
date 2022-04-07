@@ -16,10 +16,10 @@ const Associate = () => {
                 <span>
                   Ph.D.<br />
                   H.O.D. of CS, AITS<br />
-                  Phone: 9891****93<br />
-                  Email: abc@aravalicollege.org<br />
-                  Profile :
-                  <a href="">https://abc.com</a>
+                  {/* Phone: 9891****93<br /> */}
+                  Email: ajtr@aravalicollege.org<br />
+                  {/* Profile :
+                  <a href="">https://abc.com</a> */}
                 </span>
                 </div>
                 </div>
@@ -29,7 +29,7 @@ const Associate = () => {
           <div class="associate-message">
             <p>
               Welcome to the online edition of Aravali Journal of Technical Research (AJTR).
-              This year marks a milestone in the history of the journal because
+              {/* This year marks a milestone in the history of the journal because
               it comes with some important enhancements. The enhancement is that
               the journal is reshaped according to the internal standard and UGC
               norms. This will enable faster processing rate of the articles and
@@ -49,8 +49,8 @@ const Associate = () => {
               deep interest in the readership of the journal and content that
               the researchers do not want to miss. I thanks to our mentor Dr
               Dr. Jitendra Singh Chouhan, HOD CS, Aravali Institute of Technical Studies, my
-              Editor. I am also thankful to our reviewers and
-              editors for their valuable suggestion.
+              Editor. I am also thankful to our reviewers and */}
+              {/* editors for their valuable suggestion. */}
             </p>
           </div>
           </div>

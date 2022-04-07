@@ -16,10 +16,10 @@ const Finance = () => {
                 <span>
                   Ph.D.<br />
                   Finance Secretary, Aravali Group of Colleges<br />
-                  Phone: 9891****93<br />
+                  {/* Phone: 9891****93<br /> */}
                   Email:abc@aravalicollege.org<br />
-                  Profile :
-                  <a href="">https://abc.com</a>
+                  {/* Profile :
+                  <a href="">https://abc.com</a> */}
                 </span>
                 </div>
                 </div>

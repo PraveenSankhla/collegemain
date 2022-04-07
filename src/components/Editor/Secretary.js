@@ -17,10 +17,10 @@ const Vicecanceler = () => {
                 <span>
                   
                   Secretary, Aravali Group of College<br />
-                  Phone: 9891****93<br />
-                  Email:abc@aravalicollege.org<br />
-                  Profile :
-                  <a href="">https://abc.com</a>
+                  {/* Phone: 9891****93<br /> */}
+                  Email: ajtr@aravalicollege.org<br />
+                  {/* Profile :
+                  <a href="">https://abc.com</a> */}
                 </span>
                 </div>
                 </div>
@@ -29,7 +29,7 @@ const Vicecanceler = () => {
 
           <div class="vicechancler-message">
             <p>
-              Welcome to the online edition of Aravali Journal of Technical Research (AJTR).
+              {/* Welcome to the online edition of Aravali Journal of Technical Research (AJTR).
               This year marks a milestone in the history of the journal because
               it comes with some important enhancements. The enhancement is that
               the journal is reshaped according to the internal standard and UGC
@@ -50,7 +50,7 @@ const Vicecanceler = () => {
               deep interest in the readership of the journal and content that
               the researchers do not want to miss. I thanks to our mentor Dr
               Ashok Kumar Gadiya, Chairman, Mewar group of institution, my
-              associates and juniors. I am also thankful to our reviewers and
+              associates and juniors. */}I am also thankful to our reviewers and 
               vicechancler for their valuable suggestion.
             </p>
           </div>

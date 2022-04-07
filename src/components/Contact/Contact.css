@@ -4,6 +4,7 @@
   flex-direction: column;
   width: 100%;
   background-color: white;
+  
 }
 
 .contact {
@@ -58,16 +59,20 @@ table {
   text-indent: initial;
   border-color: grey;
   overflow: auto;
+  border: none;
 }
 
 tbody {
+  /* padding-top: 20px; */
   overflow: auto;
   display: table-row-group;
   vertical-align: middle;
   border-color: inherit;
 }
 
+
 tr {
+  /* margin-left: 20px; */
   display: table-row;
   vertical-align: inherit;
 }

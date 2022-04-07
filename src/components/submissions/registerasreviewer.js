@@ -17,7 +17,7 @@ const Registerasreviewer = () => {
             <br/>
 
             <h3>
-                Criteria to join  our Editorail Board :- <br/>[ Must have Doctoral Degree (Ph.D.) from reputed University/Institution]
+                Criteria to join  our Editorail Board :- <br/>[ Must have Doctoral Degree (Ph.D.) from reputed University/Institution or having sufficient experience ]
             </h3>
             <br/>
 
@@ -34,7 +34,7 @@ const Registerasreviewer = () => {
             <h2>Benifits :</h2>
             <ul>
                 <li>
-                    You can add your role as an Editorial Board Member For AJTR
+                    You can add your role as an Editorial Board Member for AJTR
                 </li>
                 <li>
                     This work helps to add in and provides a better way to create your identity as a
@@ -42,25 +42,25 @@ const Registerasreviewer = () => {
                     of your specialized area.
                 </li>
                 <li>
-                    You will be among the contributors who will shape and decide the ways as a required with changing societal needl.
+                    You will be among the contributors who will shape and decide the ways as a required with changing societal need.
                 </li>
                 <li>
                     Your ideas and subject inputs may help in arranging conference/seminar/symposium or special issues as per topics of your interest and choice.
                 </li>
                 <li>
                     You will come across the latest research before everyone else and give you a position of leadership in your research community.
-                </li>
+                </li>   
                 <li>
-                    you will work for the benifits of the research community, your presence and support will enhance our morale for serving the society through sharing
+                    You will work for the benifits of the research community, your presence and support will enhance our morale for serving the society through sharing
                     of knowledge free of charge and making your expertise and experience known to the world.
                 </li>
-                <li>
-                    The editorial board member gets a 50% discountto publish articles as an author, or co-author, or article submit submitted for consideration.
-                </li>
+                {/* <li>
+                    The editorial board member gets a 50% discount to publish articles as an author, or co-author, or article submit submitted for consideration.
+                </li> */}
             </ul>
             <br/>
             <br/>
-            <p>To register send full details to : - ajtr@aravalicollege.org / aravalicollege.org</p>
+            <p>To register send full details to : - ajtr@aravalicollege.org / editor@aravalicollege.org</p>
     </div>
     )
 }

@@ -16,10 +16,10 @@ const Editorsmessage = () => {
                 <span>
                   Ph.D.<br />
                   Director, AITS Udaipur<br />
-                  Phone: 9891****93<br />
-                  Email:abc@aravalicollege.org<br />
-                  Profile :
-                  <a href="">https://abc.com</a>
+                  {/* Phone: 9891****93<br /> */}
+                  Email: ajtr@aravalicollege.org<br />
+                  {/* Profile :
+                  <a href="">https://abc.com</a> */}
                 </span>
                 </div>
                 </div>
@@ -29,7 +29,7 @@ const Editorsmessage = () => {
           <div class="editors-message">
             <p>
               Welcome to the online edition of Aravali Journal of Technical Research (AJTR).
-              This year marks a milestone in the history of the journal because
+              {/* This year marks a milestone in the history of the journal because
               it comes with some important enhancements. The enhancement is that
               the journal is reshaped according to the internal standard and UGC
               norms. This will enable faster processing rate of the articles and
@@ -50,7 +50,7 @@ const Editorsmessage = () => {
               the researchers do not want to miss. I thanks to our mentor Dr
               Hemant Dhabhai, Director, Aravali Institute of Technical Studies, my
               associates and juniors. I am also thankful to our reviewers and
-              editors for their valuable suggestion.
+              editors for their valuable suggestion. */}
             </p>
           </div>
           </div>

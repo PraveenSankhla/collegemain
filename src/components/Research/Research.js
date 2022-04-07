@@ -15,9 +15,10 @@ return (
                     <td>Education</td>
                 </tr>
                 <tr>
-                    <td>       </td>
-                    <td> Physical Education</td>
+                    <th></th>
+                    <td>Physical Education</td>
                 </tr>
+            
                 <tr>
                     <th>Engineering & Technology</th>
                     <td>Civil Engineering</td>
@@ -40,13 +41,32 @@ return (
                      <td>Mechanical Engineering</td>
                 </tr>
                 <tr>
+                     <td>    </td>
+                     <td>Chemical Engineering</td>
+                </tr>
+
+                <tr>
+                     <td>    </td>
+                     <td>Textile Engineering</td>
+                </tr>
+
+                <tr>
+                     <td>    </td>
+                     <td>Mining Engineering</td>
+                </tr>
+                <tr>
+                     <td>    </td>
+                     <td>Aerospace Engineering</td>
+                </tr>
+                
+                <tr>
                     <th>Science & Technology  </th>
                     <td> Chemistry</td>
                 </tr>
 
                 <tr>
                     <td>    </td>
-                    <td>Electronics</td>
+                    <td>Biology</td>
                 </tr>
 
                 <tr>
