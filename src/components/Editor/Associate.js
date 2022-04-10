@@ -1,60 +1,45 @@
 import React from "react";
-import './associate.css'
+import './Message.css'
 
 const Associate = () => {
   return (
-    <div className='associate'>
-      <div class="associate-blog">
-        <div class="associate-blog-post">
-          <h1>Editor's Message</h1>
-          <div className="associate-flex-set">
-          <div class="associate-blog-post-img">
+    <div className='editors'>
+    <h1>Chief Editor Message</h1>
+          <div className="editors-flex-set">
+          <div class="editors-blog-post-img">
             <img src="/img/6.jpg" alt="" />
           </div>
-            <div class="associate-blog-post-title">
+            <div class="editors-blog-post-title">
                   <h1>Dr. Jitendra Singh Chouhan</h1>
                 <span>
                   Ph.D.<br />
                   H.O.D. of CS, AITS<br />
-                  {/* Phone: 9891****93<br /> */}
                   Email: ajtr@aravalicollege.org<br />
-                  {/* Profile :
-                  <a href="">https://abc.com</a> */}
                 </span>
                 </div>
                 </div>
-                </div>
+              
 
 
-          <div class="associate-message">
+          <div class="editors-message">
             <p>
-              Welcome to the online edition of Aravali Journal of Technical Research (AJTR).
-              {/* This year marks a milestone in the history of the journal because
-              it comes with some important enhancements. The enhancement is that
-              the journal is reshaped according to the internal standard and UGC
-              norms. This will enable faster processing rate of the articles and
-              gives us scope to include more articles. To get best benefits out
-              of this improvement, we encourage more practice-based articles,
-              state-of-the-art content and critical review articles. This will
-              help us in scoring high in performance measures and moving up in
-              journal ranking lists. We have also modified the journal to
-              reflect the aim and scope of AJTR. We continue to publish excellent
-              articles, and our rejection rates are much higher compared to many
-              top journals. It is time for us to look at the journal as truly
-              international and continue to work hard to help the journal in
-              climbing up the ranking ladder. We do not believe in rushing into
-              shortcuts that might work in getting more citations for the
-              articles. Instead, we should find better articles that discuss new
-              ideas and research directions, original articles that can create
-              deep interest in the readership of the journal and content that
-              the researchers do not want to miss. I thanks to our mentor Dr
-              Dr. Jitendra Singh Chouhan, HOD CS, Aravali Institute of Technical Studies, my
-              Editor. I am also thankful to our reviewers and */}
-              {/* editors for their valuable suggestion. */}
+            Aravali Journal of Technical Research (AJTR) aims to be a scientific 
+            reference source where researchers can publish their studies and have 
+            access to relevant studies. AJTR is an international journal for 
+            researchers interested in the review of studies and theoretical papers on
+            education at any level. Our mission is to contribute to the knowledge and
+            better understanding of educational issues. AJTR Journal is published 
+            with the support of Aravali Institute of Technical Studies, Udaipur.
+            Anonymous Peer Review – Content is reviewed by 
+            external reviewers and the author’s identity is unknown to the 
+            reviewer. A double-blind peer-review process is where both the 
+            reviewer and the author remain anonymous throughout the process. 
+            Anonymous peer-review process employing at least two reviewers with 
+            scholarly affiliation is preferred.
             </p>
           </div>
           </div>
-          </div>
+        
   );
 };
 

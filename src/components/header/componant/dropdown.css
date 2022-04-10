@@ -1,14 +1,11 @@
 .aboutus-submenu
-{
-  
+{ 
   position: absolute;
   list-style: none;
   text-align: start;
   top: 45px;
   padding-left: 5px;
   margin-top: 15px;
- 
-
 }
 
 .aboutus-submenu li{
@@ -21,24 +18,55 @@
 .aboutus-submenu.clicked
 {
     display: none;
-
-  
 }
+
 .aboutus-submenu a 
 {
     color: white;
-    /* display: block; */
     text-decoration: none;
     padding: 12px;
 }
+
 .submenu-item
 {
     height: 100%;
     width: 100%;
     padding: 15px;
+} 
+
+.rits{
+    color: white;
+    padding-left: 4%;
+    position: relative;
+    padding-top: 4px;
 }
-/* .aboutus-submenu a:hover
-{
+
+.praveensankhla{
+    margin: 0px 10px 10px 16px;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;   
+    padding: 12px;
+    cursor:pointer;
+    font-size:15px;
+    text-transform:capitalize;
+}
+
+.psspecial{
+    color: White;
+    padding: 2px;
+    /* display:"flex";
+    flex-direction:"column" */
+}
+
+
+.psspecial:hover{
     background-color: white;
+    padding: 4px;
+    position: relative;
+    border-radius: 3px;
     color: black;
-} */
+}
+

@@ -1,113 +1,57 @@
 .contact-main {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
   width: 100%;
   background-color: white;
-  
+  padding: 1rem 2rem 4rem 2rem;
 }
 
-.contact {
-  font-family: "Calibri Light";
-  font-size: 15px;
-  font-weight: 400;
-  color: #202020;
-  line-height: 1.8;
-  word-wrap: break-word;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  width: 100%;
+
+.contact-main h1 {
+  padding: 1rem 1rem 1rem 2rem;
 }
 
-.name-head{
-  padding: 0px;
-  margin: 0px;
+.contact-main table{
+  line-height: 1.5;
+  padding: 0.2rem 1rem 1rem 3rem;
 }
 
-.col-md {
-  position: relative;
-  margin-left: 1rem;
-}
 
-article {
-  margin-bottom: 10px;
-  margin-left: 30px;
-}
-
-.contact-title {
-  word-wrap: break-word;
-  font-weight: 700;
-  color: #000;
-  letter-spacing: -0.02em;
-  font-size: 36px;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  line-height: 1.1;
+.contact-main span b{
+  color: #ff6900;
+  font-size: large;
 }
 
 .google-map {
+  padding: 0.5rem 1rem 1rem 2rem;
   position: relative;
-  margin: 1rem 0rem;
   width: 90%;
   height: 400px;
 }
 
-table {
-  width: 100%;
-  border-spacing: 0;
-  display: table;
-  text-indent: initial;
-  border-color: grey;
-  overflow: auto;
-  border: none;
+@media only screen and (max-width: 500px) {
+      .contact-main{
+        padding-left: 1rem;
+      }
+
+      .contact-main tr{
+          display: flex;
+          flex-direction: column;
+      }
+
+      .contact-main td{
+        padding-top: 1rem;
+      }
+
+      .contact-main h1 {
+        font-size: 26px;
+      }
+
+      .google-map{
+        height: 310px;
+      }
 }
 
-tbody {
-  /* padding-top: 20px; */
-  overflow: auto;
-  display: table-row-group;
-  vertical-align: middle;
-  border-color: inherit;
+@media only screen and (max-width: 300px) {
+    .contact-main h1 {
+    font-size: 20px;
+  }
 }
-
-
-tr {
-  /* margin-left: 20px; */
-  display: table-row;
-  vertical-align: inherit;
-}
-
-td {
-  padding: 8px;
-}
-
-td {
-  display: table-cell;
-  vertical-align: inherit;
-}
-
-.name-head {
-  color: #ff6900;
-}
-
-.block-table {
-  margin: 0 0 1em;
-  overflow-x: auto;
-}
-
-figure {
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 40px;
-  margin-inline-end: 40px;
-}
-
-.block-table table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-@media screen and (min-width:750px){
-}
-
-

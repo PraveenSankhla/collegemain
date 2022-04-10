@@ -4,56 +4,45 @@
     width: 100%;
     flex-direction: column;
     background-color: white;
-    padding-top: 2%;
-    padding-bottom: 5%;
+    padding: 3% 3% 3% 1%;
 }
 
-.set
-{
-    font-size: 40px;
-    padding-left: 25px;
-}
-.dhol{
-    font-family: system-ui;
+.sub-main h2{
+    padding-left: 2rem;
+  }
+  
+  .sub-main p{
+    text-align: justify;
+    padding: 0.6rem;
+    padding-left: 1.5rem;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .sub-main h3{
+    padding-left: 2rem;
+    font-weight: bolder;
+  }
+
+  .sub-main h4{
+      padding-left: 3rem;
+      padding-top: 1rem;
+      font-size: 18px;
+  }
+
+.sub-main ul{
+    padding-top: 1rem;
 }
 
-.chol li{
-    padding: 5px;
+.sub-main li{ 
+    padding: 0.4rem;
     font-family: system-ui;   
     margin-left: 8%;
 }
-.get{
-    font-family: serif;
-}
 
-.get set {
-    font-family: system-ui;
-    padding: 2px;
-}
-.chal{
-    font-family: system-ui;
-    padding: 5px;
-    
-}
-
-h3{
-    padding: 5px;
-    padding-left: 25px;    
-}
-
-a{
-    padding-left: 40px;
+.sub-main a{
+    padding-left: 3.5rem;
+    padding-top: 0.5rem;
     color: #ff4200;
     font-weight: bolder;
 }
-   
-
-@media only screen and (max-width: 750px){
-    get{
-           width: 100%;
-    }
-    set{
-        width: 80%;
-    }
- 
- }

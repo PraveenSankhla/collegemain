@@ -1,8 +1,6 @@
 .footr {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 2rem;
+  background-color: white;
+  padding: 1.5rem 0rem;
 }
 
 .footer {
@@ -15,29 +13,24 @@
 .footer h3 {
   color: white;
   text-align: center;
-  margin: 0.8rem;
+  padding: 0.6rem;
 }
 
-@media only screen and (max-width: 1100px) and (min-width: 800px) {
-  .footer {
-    padding: 1rem;
-    margin-top: 1rem;
-  }
-
+@media only screen and (max-width: 1100px) and (min-width: 700px) {
   .footer h3 {
-    margin: 0.5rem;
+    padding: 0.5rem;
     font-size: 14px;
   }
 }
 
-@media only screen and (max-width: 799px) and (min-width: 400px) {
+@media only screen and (max-width: 699px) and (min-width: 300px) {
   .footer h3 {
-    margin: 0.3rem;
+    padding: 0.4rem;
     font-size: 12px;
   }
 }
 
-@media only screen and (max-width: 399px) {
+@media only screen and (max-width: 299px) {
   .footer h3 {
     font-size: 10px;
   }

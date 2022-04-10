@@ -1,0 +1,48 @@
+.header-img {
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+}
+
+.header-img img {
+  width: 100%;
+  height: 100%;
+}
+
+marquee{
+  padding: 0.2rem 0rem 0.2rem 0rem;
+  border: 1px solid black;
+  background-color: blueviolet;
+}
+
+marquee p{
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 999px) {
+  .header-img {
+    height: 350px;
+  }
+}
+
+
+@media screen and (max-width: 750px) {
+  .header-img {
+    height: 270px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header-img {
+    height: 220px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .header-img {
+    height: 160px;
+  }
+}

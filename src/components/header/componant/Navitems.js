@@ -16,19 +16,19 @@ export const navItems = [
     {
       id: 3,
       title: "Issues of Journal",
-      path: "./pdffile/Volumes",
+      path: "./",
       cName: "nav-item",
     },
     {
       id: 4,
       title: "Guidelines",
-      path: "./",
+      path: "./submission/Guidlinesub",
       cName: "nav-item",
     },
     {
         id: 5,
         title: "Editorial Board",
-        path: "./editorial",
+        path: "./Editor/Editors",
         cName: "nav-item",
       },
       {
@@ -46,7 +46,7 @@ export const navItems = [
       {
         id:8 ,
         title: "Copyright",
-        path: "./turnaround/TAD",
+        path: "./Copyright/Copyright",
         cName: "nav-item",
       },
       {
@@ -121,34 +121,18 @@ export const editorDropdown = [
     path: "./Editor/Editors",
     cName: "submenu-item",
   },
+  
   {
     id: 2,
-    title: "Patron's message",
-    path: "./Editor/Patron",
-    cName: "submenu-item",
-  },
-  {
-    id: 3,
-    title: "Message of Secretary",
-    path: "./Editor/Secretary",
-    cName: "submenu-item",
-  },
-  {
-    id: 4,
-    title: "Director's Message",
+    title: "Director Message",
     path: "./Editor/Director",
     cName: "submenu-item",
   },
   {
-    id: 5,
-    title: "Editor's Message",
+    id: 3,
+    title: "Chief Editor Message",
     path: "./Editor/Editer",
     cName: "submenu-item",
-  },
-  {
-    id: 6,
-    title: "Finance Secretary",
-    path: "./Editor/Finance",
-    cName: "submenu-item",
-  },
+  }
+  
 ];

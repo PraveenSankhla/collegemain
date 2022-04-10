@@ -13,7 +13,7 @@ const About = () => {
                     and unpublished papers from reaserch scholars, both from India and abroad. It also welcomes new academic 
                     books for review if these are relevant to our area of research. Please send us your articles 
                     to ajtr@aravalicollege.org.
-                    </p>
+             </p>
          </div>
         
         </>

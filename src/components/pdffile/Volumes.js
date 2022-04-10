@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
 import { useParams } from "react-router-dom";
 import { db } from "../../firebase";
-import "./pdf.css";
+import "./Volume.css";
 
 const Volumes = (props) => {
   const [file, setFile] = useState();
@@ -12,10 +12,10 @@ const Volumes = (props) => {
   console.log("params", params);
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
-  function onDocumentLoadSuccess({ numPages }) {
-    setNumPages(numPages);
-    setPageNumber(1);
-  }
+  // function onDocumentLoadSuccess({ numPages }) {
+  //   setNumPages(numPages);
+  //   setPageNumber(1);
+  // }
   useEffect(() => {
     if (params.docid) {
       const q = query(collection(db, "folders"));
@@ -29,26 +29,23 @@ const Volumes = (props) => {
       });
     }
   }, [params]);
-  console.log("url url", url);
 
   const downloadFile = () => {
     if (url) {
       window.location.href = url;
     } else {
-      alert("no file found");
+      alert("No File Found");
     }
   };
 
   return (
     <div className="main-pdf">
-      <div>
-        <Document file={url} onLoadSuccess={onDocumentLoadSuccess}>
+        {/* <Document file={url} onLoadError={onDocumentLoadSuccess}>
           <Page pageNumber={1} />
-        </Document>
+        </Document> */}
 
         {url && <iframe src={url}></iframe>}
         <button onClick={() => downloadFile()}>Download PDF</button>
-      </div>
     </div>
   );
 };

@@ -1,31 +1,37 @@
 import React, { useState } from "react";
 import "./respo.css";
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
+
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
-import Research from './components/Research/Research'
+import Sidebar from "./components/Sidebar/Sidebar";
 import Footer from "./components/footer/Footer";
-import Introduction from "./components/about/Introduction";
-import Objectives from "./components/about/Objectives";
-import MissionAndVision from "./components/about/MissionAndVision";
-import Sidebar from "./components/Sidebar.js/Sidebar";
-import Contact from "./components/Contact/Contact";
-import Editor from "./components/Editor/Editors";
-import Patron from "./components/Editor/Patron";
-import Secretary from "./components/Editor/Secretary";
-import Director from "./components/Editor/Director";
-import Associate from "./components/Editor/Associate";
-import Finance from "./components/Editor/Finance";
-import Cpaper from "./components/Callforpaper/Cpaper";
-import TAD from "./components/TurnAroundDates/TAD";
+
 import About from "./components/about/About";
-import Aim from "./components/Aim/Aim";
+import Introduction from "./components/about/Introduction";
+import MissionAndVision from "./components/about/MissionAndVision";
+import Objectives from "./components/about/Objectives";
+
 import Registerasreviewer from "./components/submissions/registerasreviewer";
 import Plagiarismchecker from "./components/submissions/plagiarismchecker";
 import Guidlinesub from "./components/submissions/Guidlinesub";
+
+import Editor from "./components/Editor/Editors";
+import Director from "./components/Editor/Director";
+import Associate from "./components/Editor/Associate";
+
+import Cpaper from "./components/Callforpaper/Cpaper";
+import Copyright from "./components/Copyright/Copyright";
+
+import Aim from "./components/Aim/Aim";
+import Research from './components/Research/Research'
+import Volumes from "./components/pdffile/Volumes";
+
+import Contact from "./components/Contact/Contact";
+
 import AddNews from "./components/admin/AddNews";
 import UploadVolume from "./components/admin/UploadVolume";
-import Volumes from "./components/pdffile/Volumes";
+
 
 const AllRoutes = () => {
   const [showSideBar, setShowSideBar] = useState(true);
@@ -37,13 +43,13 @@ const AllRoutes = () => {
 
           <Routes>
             <Route path="/" element={<Home />} />
+            
             <Route path="/About" element={<About />} />
             <Route path="/about/introduction" element={<Introduction />} />
             <Route path="/about/Objectives" element={<Objectives />} />
-            <Route
-              path="/about/MissionAndVision"
-              element={<MissionAndVision />}
-            />
+            <Route path="/about/MissionAndVision" element={<MissionAndVision />}/>
+
+
             <Route path="/Contact" element={<Home />} />
             <Route path="/Contact/Contact" element={<Contact />} />
 
@@ -51,14 +57,6 @@ const AllRoutes = () => {
             <Route path="/Editor/Editors" element={<Editor />} />
             <Route path="/Editor/editornew" element={<editornew />} />
 
-            <Route
-              path="/Editor/Patron"
-              element={<Patron />}
-            />
-            <Route
-              path="/Editor/Secretary"
-              element={<Secretary />}
-            />
             <Route
               path="/Editor/Director"
               element={<Director />}
@@ -68,22 +66,13 @@ const AllRoutes = () => {
               element={<Associate />}
             />
 
-            <Route
-              path="/Editor/Finance"
-              element={<Finance />}
-            />  
-            <Route
-              path="/about/MissionAndVision"
-              element={<MissionAndVision />}
-            />
-
             <Route path="/Callforpaper" element={<Home />} />
 
             <Route path="/Callforpaper/Cpaper" element={<Cpaper />} />
 
             <Route path="/TurnAroundDates" element={<Home />} />
 
-            <Route path="/TurnAroundDates/TAD" element={<TAD />} />
+            <Route path="Copyright/Copyright" element={<Copyright />} />
 
             <Route path="/about/Objectives" element={<Objectives />} />
             <Route path="/firebase" element={<Home />} />
@@ -102,13 +91,13 @@ const AllRoutes = () => {
             <Route />
             <Route
               setShowSideBar={setShowSideBar}
-              path="/turnaround/TAD"
-              element={<TAD setShowSideBar={setShowSideBar} />}
+              path="/Copyright/Copyright"
+              element={<Copyright setShowSideBar={setShowSideBar} />}
             />
             {/* Admin */}
-            <Route path="/add/volume" element={<UploadVolume />} />
+            <Route path="/admin/uploadvolume" element={<UploadVolume />} />
             <Route path="/view/file/:docid/:index" element={<Volumes />} />
-            <Route path="/admin/create/new" element={<AddNews />} />
+            <Route path="/admin/new" element={<AddNews />} />
           </Routes>
           {showSideBar && <Sidebar />}
         </div>

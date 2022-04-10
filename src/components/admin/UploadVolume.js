@@ -19,8 +19,10 @@ const UploadVolume = () => {
     setFile(e.target.files[0]);
   };
   const addFile = async (e) => {
+    let inputclear = document.getElementById('pkm')
+    if(inputclear.value!=""){
     e.preventDefault();
-
+    
     const storage = getStorage();
     const folderName = `volume (${new Date().getFullYear()})`;
     const storageRef = ref(storage, `${folderName}/${uuidv4()}`);
@@ -32,21 +34,31 @@ const UploadVolume = () => {
           await updateDoc(docRef, {
             urls: arrayUnion(url),
           })
-            .then((data) => console.log("data updated"))
-            .catch((err) => console.log("err", err));
+            .then((data) =>
+            alert("File Uploaded")
+            )
+            .catch((err) => alert("err", err));
         } else {
           await setDoc(doc(db, "folders", folderName), {
             urls: arrayUnion(url),
           })
-            .then((data) => console.log("data saved"))
-            .catch((err) => console.log("err", err));
+            .then((data) => alert("File Saved"))
+            .catch((err) => alert("err", err));
         }
       });
     });
+    inputclear.value='';
+  }
+  else{
+    alert("Please Select PDF")
+  }
   };
+
+  
   return (
     <div className="main-volume">
       <input
+        id="pkm"
         className="inp"
         type="file"
         accept="application/pdf"

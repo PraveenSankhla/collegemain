@@ -2,7 +2,6 @@ import React from "react";
 import "./home.css";
 
 const Home = () => {
-
 return (
       <div className="home-blog">
         <div className="leftside">
@@ -38,13 +37,13 @@ return (
               do not necessarily represent the viewpoint of the Journal.
             </p>
             <hr />
-            <div className="mainbtn">
+
               <img
                 src="/img/0001.jpg"
                 alt="pk"
                 className="img2"
               />
-            </div>
+      
             <div className="bot">
               <a href="https://www.aravalieducation.org/">
                 https://www.aravalieducation.org/

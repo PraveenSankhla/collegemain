@@ -2,6 +2,7 @@ body {
   background-color: #dddcce;
   text-align: justify;
 }
+
 .repo {
   width: 90%;
   margin-left: auto;
@@ -9,6 +10,7 @@ body {
   overflow-x: hidden;
   margin-top: 20px;
 }
+
 @media screen and (max-width: 951px) {
   .repo {
     width: 100%;

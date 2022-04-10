@@ -15,6 +15,7 @@ const Mainnavbar = (props) => {
     }
     return "black";
   };
+  
   return (
     <>
       <div className="main-nav">

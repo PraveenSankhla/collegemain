@@ -1,25 +1,18 @@
 .research-main{
     background-color: white;
-    display: flex;
     width: 100%;
-    justify-content: flex-start;
-    flex-direction: row;
-    padding-top: 3.5%; 
-    padding-bottom: 5%;
-    padding-left: 0.5%;
+    padding: 2rem 1rem 4rem 1rem;
 }
 
- table{
+ .research-main table{
      font-family: "Times New Roman";
-     border-collapse:collapse;
-     border:1px solid black;
-     width : 100% ;
+     width : 100%;
+     border-collapse: collapse;
 }
-td, th{
-     border: 1px solid #080808;
+
+.research-main td, th{
+     border: 0.5px solid #080808;
      text-align:left;
      padding: 8px;
 }
-tr:nth-child(even) {
-    background: 1px solid #f3e8e8;
-}
+

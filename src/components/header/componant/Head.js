@@ -1,5 +1,5 @@
 import React from 'react'
-import "./header.css"
+import "./head.css"
 
 const Head = () => {
     return (
@@ -10,7 +10,6 @@ const Head = () => {
             </div>
         
             <marquee behavior="scroll" direction="left"
-                    // onMouseOut={this.start} onMouseOver={this.stop}
                     scrolldelay='1' scrollamount='7'>
                     <p>
                     Welcome to Aravali Journal of Technical Research(AJTR).....🙏🙏

@@ -13,24 +13,48 @@
   }
 
   .main-plagiarism h3{
-      padding-left: 5%;
+      padding-left: 6%;
   }
 
   .main-plagiarism p{
-      padding-left: 3%;
-      font-size: 15px;
+      padding-left: 4%;
+      padding-top: 1%;
+      font-size: 16px;
       font-family: Arial, Helvetica, sans-serif;
   }
 
 .main-plagiarism ul{
-    padding-left: 8%;
+    padding-left: 9%;
     padding-top: 2%;
 }
 
 .main-plagiarism ul li{
     margin: 10px;
+    color: #ff4200  ;
 }
 
 .main-plagiarism a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #ff4200;
     font-size: 20px;
+}
+
+@media only screen and (max-width: 350px) {
+    .main-plagiarism h2{
+        font-size: 19px;
+    }
+
+    .main-plagiarism h3{
+        font-size: 16px;
+    }
+
+    .main-plagiarism ul li{
+        margin: 6px;
+        font-size: 12px;
+    }
+
+    .main-plagiarism a{
+        font-size: 16px;
+    }
 }

@@ -1,23 +1,21 @@
 .main-reviewer {
   background-color: white;
   width: 100%;
-  padding-top: 3%;
-  padding-right: 3%;
-  padding-bottom: 5%;
+  padding: 3% 3% 3% 0%;
 }
 
 .main-reviewer h2{
-  padding-left: 5%;  
+  padding-left: 2rem;
 }
 
 .main-reviewer p{
-  padding-left: 3%;
+  padding-left: 1.5rem;
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .main-reviewer h3{
-  padding-left: 5%;
+  padding-left: 2.5rem;
   font-weight: bolder;
 }
 
@@ -28,4 +26,16 @@
 
 .main-reviewer ul li {
   margin: 10px;
+}
+
+
+@media only screen and (max-width: 350px) {
+  .main-reviewer h2{
+    padding-left: 1rem;
+    font-size: 20px;
+  }
+
+  .main-reviewer p{
+    padding-left: 0.5rem;
+  }
 }

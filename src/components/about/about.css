@@ -1,23 +1,42 @@
 .about{
     width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
     background-color: white;
-    font-family: Calibri Light;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .about h1{
-    margin-left: 1rem;
-    font-size: 36px;
-    padding: 0.5rem 1.5rem;
+    padding: 2rem 1rem 1rem 2rem;
 }
 
 .about p{
-    margin: 0px 1px;
+    font-size: 18px;
+    padding: 1rem 2rem 1rem 2rem;
     line-height: 1.8;
     word-wrap: break-word;
-    padding: 0.5rem 0.5rem 0rem 2.5rem;
 }
 
- 
+.about h3{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+}
+
+
+@media only screen and (max-width: 350px) {
+    .about h1{
+        padding: 1rem 0.5rem 0.5rem 0.5rem;
+        font-size: 20px;
+    }
+    
+    .about p{
+        font-size: 14px;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        line-height: 1.6;
+        word-wrap: break-word;
+    }
+    
+    .about h3{
+        padding: 0.5rem 1rem;
+    }
+    
+}

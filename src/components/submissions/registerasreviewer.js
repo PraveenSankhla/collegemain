@@ -23,13 +23,14 @@ const Registerasreviewer = () => {
 
             <p><b>Associate Editor - </b> Minimum 10 years of exposure in research work and teaching field with more than 50 publications.
             Associate Editors have to take the final desicision on reviewed articles with comments.</p>
-<br/>
+            <br/>
             <p><b>Reviewer - </b>Minimum 5 years of Exposure in Research work and teaching field with more than 15 publications
             <br/>
-     <br/>       Reviewers should review and send the review comments in due time period. If the article is not in your area of interest then
+            <br/> 
+            Reviewers should review and send the review comments in due time period. If the article is not in your area of interest then
             revert back to the editor so that the other reviewers can be approached.</p>
-<br/>
-<br/>
+            <br/>
+            <br/>
 
             <h2>Benifits :</h2>
             <ul>
@@ -54,9 +55,6 @@ const Registerasreviewer = () => {
                     You will work for the benifits of the research community, your presence and support will enhance our morale for serving the society through sharing
                     of knowledge free of charge and making your expertise and experience known to the world.
                 </li>
-                {/* <li>
-                    The editorial board member gets a 50% discount to publish articles as an author, or co-author, or article submit submitted for consideration.
-                </li> */}
             </ul>
             <br/>
             <br/>

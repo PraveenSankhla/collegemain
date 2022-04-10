@@ -1,38 +1,30 @@
 .Cpaper{
     width: 100%;
     background-color: white;
-    font-family: "Calibri light";
-}
-.main-block{
-    padding-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 3%;
 }
 
-.main-head{
-    margin-left: 1rem;
-    padding: 0.5rem 0.5rem;
-    font-weight: 700;
-    color: black;
-    letter-spacing: -.02em;
-    font-size: 36px;
-    margin-top: 10px;
-    line-height: 1.1;
+
+.Cpaper h1{
+    padding: 2rem 1rem 1rem 2rem;
 }
 
-span{
-    margin-left: 0.5rem;
+.Cpaper h3{
+    padding: 1rem 2rem;
     color: #ff6900;
-    font-size: 15px;
-    line-height: 1.8;
+    line-height: 1.6;
 }
 
-p{  
-    margin-left: 2rem;
-    line-height: 1.4;
-    font-size: 15px;
-    font-weight: 400;
-    color: #202020;
-    font-family: "Calibri light";
+.Cpaper p{  
+    font-size: 17px;
+    padding: 0.2rem 1rem 0.2rem 3rem;
+    line-height: 1.8;
+    word-wrap: break-word;
+}
+
+.Cpaper a{
+    text-decoration: none;
+    color: #ff6900;
+    cursor: pointer;
 }

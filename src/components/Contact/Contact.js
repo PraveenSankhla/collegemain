@@ -6,134 +6,98 @@ const Contact = ({ google, onMarkerClick }) => {
   useEffect(() => {
     const contact=document.getElementById("contact").parentElement.style.width="100%"
   }, [])
+
   return (
     <>
       <div id="contact" className="contact-main">
-        <div className="contact">
-          <article className="col-md">
-            <div className="contact-body-page">
-              <div className="main-content-page">
-                <header>
-                  <h1 className="contact-title">Contact Us</h1>
-                </header>
-      
-        <div className="entry-content">
-          <figure className="block-table">
-            <table>
-              <tbody>
-              <tr>
-                <td>
-                <strong>
-                  <span className="name-head">
-                      Dr. Hemant Dhabhai
-                  </span>
-                </strong>
-                      <br />
-                      Director
-                      <br />
-                      Aravali Institue of technical studies
-                      <br />
-                      Rajasthan, INDIA
-                      <br />
-                      Mobile:
-                  <strong>+91 900 1275 999</strong>
-                      {/* <br />
-                      Toll-Free No,:
-                  <strong>180030xxxxx</strong> */}
-                      </td>
-                      <td>
+      <h1>Contact Us</h1>
+      <table>
+          <tr>
+            <td>
+              <span>
+                <b>Dr. Hemant Dhabhai</b>  
                   <strong>
-                    <span className="name-head">
-                      Dr. Jitendra Singh Chouhan
-                    </span>
+                  <br />
+                  Director
+                  <br />
+                  Aravali Institue of technical studies
+                  <br />
+                  Rajasthan, INDIA
+                  <br />
+                  Mobile: 
+                   +91 900 1275 999
+                   </strong>
+                </span>
+            </td>
+            
+            <td>
+              <span>
+                <b>Dr. Jitendra Singh Chouhan</b>
+                  <strong>
+                  <br />
+                  Chief-Editor
+                  <br />
+                  Aravali Journal of Technical Research (AJTR)
+                  <br />
+                  Udaipur,
+                  Rajasthan, INDIA
+                  <br />
+                  Mobile: +91 978 409 8746
+                  <br />
+                  Email :
+                  editor@aravalicollege.org
                   </strong>
-                      <br />
-                      Chief-Editor
-                      <br />
-                      Aravali Journal of Technical Research (AJTR)
-                      <br />
-                      Udaipur,
-                  
-                      Rajasthan, INDIA
-                      <br />
-                      Mobile: +91 978 409 8746
-                      <br />
-                      Email :
-                  <strong>editor@aravalicollege.org</strong>
-                      </td>
-                    </tr>
-                 
-            <tr>
-          {/* <td> */}
+                </span>
+              </td>
+            </tr>
+            <br/>
           <br/>
-          <strong>
-            <span className="name-head">
-              Editor, Aravali Journal of Technical Research
+
+        
+            <span>
+            <b>Aravali Journal of Technical Research</b>
+            <strong>
+            <br />
+            Office Address : 
+            Aravali Institute of Technical Studies
+            <br/>
+            Aravali knowledge Campus
+            <br />
+            Umarda, Udaipur, Rajashthan-343002
+            <br />
+            Phone: 9001055558
+            <br />
+            Email: ajtr@aravalicollege.org
+            <br />
+            Website: https://aravalieducation.org
+            </strong>
             </span>
-          </strong>
-          <br />
-          <strong>Office Address: </strong>
-              Aravali Institute of Technical Studies
-              <br/>
-              Aravali knowledge Campus
-              <br />
-              Umarda, Udaipur, Rajashthan-343002
-              <br />
-              Phone: 9001055558
-              <br />
-              Email: ajtr@aravalicollege.org
-              <br />
-              Website: https://aravalieducation.org
-            {/* </td> */}
-          {/* <td>
-          <strong>
-            <span className="name-head">
-              Contact Number of Aravali college
-            </span>
-               </strong>
-                  <br />
-                  Phone: 951xxxxxx
-                  <br />
-                  Fax: 01471-2xxxxx1/52
-                  <br />
-                  Toll-Free No.:
-              <strong>180030xxxxxx3</strong>
-                  <br />
-                </td> */}
-              </tr>
-               </tbody>
-                </table>
-              </figure>
-              
-                  <h1 class="srm_gmap_heading_1 ">
-                    Aravali Institute of Technical Studies
-                  </h1>
-                <div className="google-map">
-                    <Map
-                      google={google}
-                      zoom={14}
-                      center={{
-                        lat: 24.524552,
-                        lng: 73.770393,
-                      }}
-                      initialCenter={{
-                        lat: 24.524552,
-                        lng: 73.770393,
-                      }}
+          </table>    
+        
+        
+          <h1>Aravali Institute of Technical Studies</h1>
+              <div className="google-map">
+                <Map
+                  google={google}
+                    zoom={14}
+                    
+                    center={{
+                    lat: 24.524552,
+                    lng: 73.770393,}}
+
+                    initialCenter={{
+                    lat: 24.524552,
+                    lng: 73.770393,}}
                     >
-                      <Marker
-                        onClick={onMarkerClick}
-                        title="Aravali Institute of Technical Studies"
-                        name={"Udaipur"}
+                      
+                    <Marker
+                      onClick={onMarkerClick}
+                      title="Aravali Institute of Technical Studies"
+                      name={"Udaipur"}
                       />
-                    </Map>
-                  </div>
+                  </Map>
                 </div>
-              </div>
-            </div>
-          </article>
-        </div>
-      </div>
+        </div>            
     </>
   );
 };

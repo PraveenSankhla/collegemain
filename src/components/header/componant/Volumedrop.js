@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./dropdown.css";
-import { issueDropdown } from "./Navitems";
 import { Link, useLocation } from "react-router-dom";
-import { FaAngleDown } from "react-icons/fa";
+import { FaAngleRight } from "react-icons/fa";
 import { collection, onSnapshot, query } from "firebase/firestore";
 import { db } from "../../../firebase";
 
@@ -34,43 +33,36 @@ const Volumedrop = ({ year }, props) => {
           console.log("year yaer", item);
           return (
             <div
-              style={{
-                backgroundColor: "black",
-                height: "100%",
-                width: "100%",
-                display: "flex",
-                position: "relative",
-                padding: "2px 6px",
-                cursor:"pointer",
-                fontSize:"14px"
-              }}
+              className="praveensankhla"
               onMouseEnter={() => {
                 getData(item);
               }}
               onMouseLeave={() => setData([])}
             >
-              <h1 style={{ color: "white",  }}>{item}</h1>
-              {/* <i className="icon">
-                <FaAngleDown />
-              </i> */}
+              <p className="psspecial">{item}</p>
+              <i className="rits">
+                <FaAngleRight />
+              </i>
 
               <div
                 style={{
+                  padding: "2px",
+                  paddingRight:"20px",
+                  left:"90%",
+                  top :"0", 
+                  backgroundColor:"black",
                   position: "absolute",
-                  left: "100%",
                   width: "fit-content",
                   height: "fit-content",
-                  display: "flex",
-                  paddingRight: 20,
-                  flexDirection: "column",
-                  backgroundColor: "black",
+                  display:"flex",
+                  flexDirection:"column",
                 }}
               >
                 {data.length > 0 &&
                   data.map((ite, i) => {
                     console.log("ite", ite.ur);
                     return (
-                      <Link to={`/view/file/${year}/${i}`}>
+                      <Link className="psspecial" to={`/view/file/${year}/${i}`}>
                         Issue Number {i + 1}
                       </Link>
                     );

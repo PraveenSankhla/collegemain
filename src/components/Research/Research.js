@@ -7,7 +7,7 @@ return (
     <div className='research-main'>
             <table>
                 <tr>
-                    <th> Faculty Name </th>
+                    <th> Faculty Name</th>
                     <td> <b>Subject</b> </td>
                 </tr> 
                 <tr>
