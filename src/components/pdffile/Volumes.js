@@ -1,17 +1,17 @@
 import { collection, onSnapshot, query } from "firebase/firestore";
 import React, { useEffect, useState } from "react";
-import { Document, Page, pdfjs } from "react-pdf";
+// import { Document, Page, pdfjs } from "react-pdf";
 import { useParams } from "react-router-dom";
 import { db } from "../../firebase";
 import "./Volume.css";
 
 const Volumes = (props) => {
-  const [file, setFile] = useState();
+  // const [file, setFile] = useState();
   const [url, setUrl] = useState("");
   const params = useParams();
-  console.log("params", params);
-  const [numPages, setNumPages] = useState(null);
-  const [pageNumber, setPageNumber] = useState(1);
+  // console.log("params", params);
+  // const [numPages, setNumPages] = useState(null);
+  // const [pageNumber, setPageNumber] = useState(1);
   // function onDocumentLoadSuccess({ numPages }) {
   //   setNumPages(numPages);
   //   setPageNumber(1);
@@ -22,7 +22,7 @@ const Volumes = (props) => {
       onSnapshot(q, (querySnapshot) => {
         querySnapshot.forEach((doc) => {
           if (doc.id === params.docid) {
-            console.log("doc", doc.data());
+            // console.log("doc", doc.data());
             setUrl(doc.data().urls[params.index]);
           }
         });
@@ -44,7 +44,7 @@ const Volumes = (props) => {
           <Page pageNumber={1} />
         </Document> */}
 
-        {url && <iframe src={url}></iframe>}
+        {url && <iframe title="myframe" src={url}></iframe>}
         <button onClick={() => downloadFile()}>Download PDF</button>
     </div>
   );

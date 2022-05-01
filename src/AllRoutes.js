@@ -31,6 +31,11 @@ import Contact from "./components/Contact/Contact";
 
 import AddNews from "./components/admin/AddNews";
 import UploadVolume from "./components/admin/UploadVolume";
+import AdminHome from './components/admin/AdminHome';
+import SignIn from "./components/admin/signinsignup";
+
+// import ProtectedRoutes from './ProtectedRoutes'
+// import { auth } from "./firebase";
 
 
 const AllRoutes = () => {
@@ -94,10 +99,14 @@ const AllRoutes = () => {
               path="/Copyright/Copyright"
               element={<Copyright setShowSideBar={setShowSideBar} />}
             />
+
             {/* Admin */}
+            {/* <ProtectedRoutes path="/admin/adminhome" element={<AdminHome />} auth={true}/> */}
+            <Route path="/admin/adminhome" element={<AdminHome />} />
             <Route path="/admin/uploadvolume" element={<UploadVolume />} />
             <Route path="/view/file/:docid/:index" element={<Volumes />} />
             <Route path="/admin/new" element={<AddNews />} />
+            <Route path='/admin/signinsignup' element={<SignIn />}/>
           </Routes>
           {showSideBar && <Sidebar />}
         </div>
@@ -106,4 +115,5 @@ const AllRoutes = () => {
     </div>
   );
 };
+
 export default AllRoutes;

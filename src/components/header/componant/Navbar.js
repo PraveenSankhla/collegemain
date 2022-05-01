@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./navbar.css";
 import { AboutusDropdown, navItems } from "./Navitems";
@@ -6,9 +6,9 @@ import Dropdown from "./Dropdown";
 import Guidlinesdrop from "./Guidlinesdrop";
 import Volumedrop from "./Volumedrop";
 
-import { collection, query, where, onSnapshot } from "firebase/firestore";
+import { collection, query, onSnapshot } from "firebase/firestore";
 import Editordrop from "./Editordrop";
-import { getStorage, ref, listAll } from "firebase/storage";
+// import { getStorage, ref, listAll } from "firebase/storage";
 import { FaAngleDown, FaAlignJustify, FaTimes } from "react-icons/fa";
 import { db } from "../../../firebase";
 

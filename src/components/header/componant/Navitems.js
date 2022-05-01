@@ -93,7 +93,7 @@ export const Guidlinesdropdown = [
   },
   {
     id: 2,
-    title: "SubmissionGuidline",
+    title: "Submission Guidline",
     path: "./submission/Guidlinesub",
     cName: "submenu-item",
   },

@@ -6,7 +6,7 @@ const Head = () => {
         <>
         
             <div className='header-img'>
-                <img src="/img/0002.jpg"/>
+                <img src="/img/0002.jpg" alt='header-image'/>
             </div>
         
             <marquee behavior="scroll" direction="left"

@@ -3,10 +3,8 @@ import "./uploadvolume.css";
 import { v4 as uuidv4 } from "uuid";
 import {
   arrayUnion,
-  collection,
   doc,
   getDoc,
-  query,
   setDoc,
   updateDoc,
 } from "firebase/firestore";
@@ -15,7 +13,7 @@ import { db } from "../../firebase";
 const UploadVolume = () => {
   const [file, setFile] = useState(false);
   const onHandleChange = (e) => {
-    console.log("calling");
+    // console.log("calling");
     setFile(e.target.files[0]);
   };
   const addFile = async (e) => {

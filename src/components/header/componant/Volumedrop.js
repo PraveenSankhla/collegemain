@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {useState } from "react";
 import "./dropdown.css";
 import { Link, useLocation } from "react-router-dom";
 import { FaAngleRight } from "react-icons/fa";
@@ -13,7 +13,7 @@ const Volumedrop = ({ year }, props) => {
   const getData = (id) => {
     const q = query(collection(db, "folders"));
     onSnapshot(q, (querySnapshot) => {
-      const array = [];
+      // const array = [];
       querySnapshot.forEach((doc) => {
         if (doc.id === id) {
           setData(doc.data().urls);
