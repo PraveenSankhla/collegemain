@@ -39,7 +39,7 @@ return (
             <hr />
 
               <img
-                src="/img/0001.jpg"
+                src="/img/0001.jpeg"
                 alt="pk"
                 className="img2"
               />

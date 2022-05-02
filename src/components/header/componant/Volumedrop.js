@@ -22,7 +22,7 @@ const Volumedrop = ({ year }, props) => {
     });
   };
 
-  console.log("array", data.length);
+  // console.log("array", data.length);
   return (
     <>
       <ul
@@ -30,7 +30,7 @@ const Volumedrop = ({ year }, props) => {
         onClick={() => setDropdown(!dropdown)}
       >
         {year.map((item, index) => {
-          console.log("year yaer", item);
+          {/* console.log("year yaer", item); */}
           return (
             <div
               className="praveensankhla"
@@ -60,7 +60,7 @@ const Volumedrop = ({ year }, props) => {
               >
                 {data.length > 0 &&
                   data.map((ite, i) => {
-                    console.log("ite", ite.ur);
+                    {/* console.log("ite", ite.ur); */}
                     return (
                       <Link className="psspecial" to={`/view/file/${year}/${i}`}>
                         Issue Number {i + 1}

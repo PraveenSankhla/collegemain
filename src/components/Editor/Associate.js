@@ -13,7 +13,7 @@ const Associate = () => {
                   <h1>Dr. Jitendra Singh Chouhan</h1>
                 <span>
                   Ph.D.<br />
-                  H.O.D. of CS, AITS<br />
+                  H.O.D., CS, AITS<br />
                   Email: ajtr@aravalicollege.org<br />
                 </span>
                 </div>

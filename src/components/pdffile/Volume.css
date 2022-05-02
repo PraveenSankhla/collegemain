@@ -8,21 +8,21 @@
     padding: 2rem 1rem 2rem 1rem;
 }
 
-.main-pdf iframe{
+/* .main-pdf iframe{
     margin-top: 1.5rem;
     width: 70%;
     height: 100vh;
     border: 1px solid #ff6900;
-}
+} */
 
 .main-pdf button{
   position: relative;
   border-radius: 0.25rem;
   font-size: 16.5px;
   font-weight: bold;
-  padding: 0.6rem;
+  padding: 0.5rem;
   cursor: pointer;
-  margin-top: 1.5rem;
+  margin-top: 0.2rem;
   background-color: #ff6900;
   color: white;
   border-style: none;
@@ -33,7 +33,19 @@
     border-radius: 0.26rem;
     font-size: 16px;
     padding: 0.5rem;
-    margin-top: 1rem;
+    margin-top: 0.2rem;
     background-color: #ff6400;
     box-shadow: 0.5px 1px 1px 2px lightgray;
+  }
+
+  .main-pdf table{
+    font-family: "Times New Roman";
+    width : 90%;
+    border-collapse: collapse;
+  }
+
+  .main-pdf td, th{
+    border: 0.5px solid #080808;
+    text-align:center;
+    padding: 8px;
   }

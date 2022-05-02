@@ -107,7 +107,34 @@ const Editors = () => {
             </div>
         </div>
 
+
+
+        <div class="main-div">
+        <div className="flex-set">
+            <div class="blog-post-img">
+            <img src="/img/017.png" alt="chandraknat sir image" />
+            </div>
+            <div class="blog-post-title">
+            <h1>Dr. Navneet Agrawal</h1>
+            <span>
+            M.Tech., Ph.D.
+            <br />
+            Associate Professor
+            <br/>
+            Department of Electronics and Communication Engineering
+            <br />
+            CTAE, MPUAT, Udaipur
+            <br/>
+            Phone: 9828276279
+            <br />
+            Email: navneetctae@gmail.com
+            </span>
+            </div>
+            </div>
+        </div>
+
          
+
         <div class="main-div">
         <div className="flex-set">
             <div class="blog-post-img">
